@@ -1,0 +1,23 @@
+.slider {
+    background: url('./../img/fondo-slider.jpg');
+}
+
+.carousel-cell {
+    display   : block;
+    width     : 100%;
+    padding   : 30px;
+    color: #fff;
+}
+
+
+.flickity-button {
+    background: #000;
+
+    &:hover {
+        background: #333;
+    }
+}
+
+.flickity-button-icon {
+    fill: #FFF;
+}

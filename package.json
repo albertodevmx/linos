@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "flickity": "^2.2.1",
+    "swiper": "^6.4.1"
+  }
+}

@@ -1,0 +1,238 @@
+@import "./custom-bootstrap";
+@import "../node_modules/flickity/dist/flickity.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap");
+@import "./slider";
+
+h2, h3, h4, h5, h6 {
+	font-family: "Josefin Sans", sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #fff;
+}
+
+p {
+	font-family: "Josefin Sans", sans-serif;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 16px;
+	color: #fff;
+}
+
+:root {
+	/* Light mode */
+	--light-text : #222430;
+	--light-bg   : #f7f7f7;
+	--light-theme: #d34a97;
+
+	/* Dark mode */
+	--dark-text : #f7f7f7;
+	--dark-bg   : #222430;
+	--dark-theme: #bd93f9;
+	
+
+	/* Default mode */
+	--switch-shadow-color: var(--light-switch-shadow);
+	--switch-icon        : var(--light-switch-icon);
+	--switch-text        : var(--light-switch-text);
+	--text-color         : var(--light-text);
+	--bg-color           : var(--light-bg);
+	--theme-color        : var(--light-theme);
+}
+
+/* Dark mode */
+#theme-switch2:checked~#page {
+	--text-color : var(--dark-text);
+	--bg-color   : var(--dark-bg);
+	--theme-color: var(--dark-theme);
+}
+
+/* Tomato mode */
+#theme-switch3:checked~#page {
+	--text-color : var(--third-text);
+	--bg-color   : var(--third-bg);
+	--theme-color: var(--third-theme);
+}
+
+
+
+#page {
+	background: var(--bg-color);
+	color     : var(--text-color);
+	font      : normal 125%/1.4 Georgia, 'Times New Roman', Times, serif;
+	min-height: 100%;
+	transition: color .2s, background-color .2s;
+}
+
+a {
+	color: var(--theme-color);
+}
+
+button:focus {
+	outline: 0;
+}
+
+body {
+	background: #000;
+}
+
+.mi-navbar {
+	
+	@media( max-width: 760px){
+		background: #000;
+	}
+}
+
+.portada {
+	width     : 100%;
+	height    : 100vh;
+	position  : relative;
+	color     : #fff;
+
+	&__info {
+		width     : 100%;
+		z-index   : 1;
+		text-align: center;
+	}
+
+	&::after {
+		content        : "";
+		position       : absolute;
+		top            : 0;
+		bottom         : 0;
+		left           : 0;
+		right          : 0;
+		background     : url(./../img/shushi-portada.png) top center no-repeat;
+		background-size: cover;
+		opacity        : 0.4;
+		z-index        : 0;
+	}
+
+	& h1 {
+		font-size     : 42px;
+		text-transform: uppercase;
+		font-weight   : bold;
+		color         : #FFF;
+		text-align    : center;
+	}
+
+	& .boton {
+		padding        : 10px;
+		color          : #FFF;
+		display        : inline-block;
+		position       : relative;
+		text-decoration: none;
+	}
+}
+
+
+.logotipo-menu {
+	height: 30px;
+}
+
+
+.fondo-negro {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+
+.chef {
+	height: 60%;
+	position: relative;
+
+	&__info {
+		width     : 100%;
+		z-index   : 1;
+	}
+
+	@media(min-width:761px){
+		height: 800px;
+	}
+
+	&::after {
+		content        : "";
+		position       : absolute;
+		top            : 0;
+		bottom         : 0;
+		left           : 0;
+		right          : 0;
+		background: url('./../img/chef.png') top center;
+		background-size: cover;
+		opacity        : 0.4;
+		z-index        : 0;
+
+		@media (min-width: 761px){
+			background: url('./../img/chef.png') top -100px;
+			background-size: cover;
+		}
+	}
+}
+
+
+
+.form {
+	height: 600px;
+	position: relative;
+
+	@media(min-width:761px){
+		height: 800px;
+	}
+
+	&__info {
+		width     : 100%;
+		z-index   : 1;
+	}
+
+	&::after {
+		content        : "";
+		position       : absolute;
+		top            : 0;
+		bottom         : 0;
+		left           : 0;
+		right          : 0;
+		background: url('./../img/sushi-tabla.png') top center no-repeat;
+		background-size: auto 100%;
+		opacity        : 1;
+		z-index        : 0;
+
+		@media (min-width: 761px){
+			background: url('./../img/sushi-tabla.png') top right no-repeat;
+			background-size: auto 100%;
+		}
+	}
+}
+
+
+
+
+.linea-roja {
+	&:before {
+		position  : absolute;
+		content   : "";
+		display   : block;
+		width     : 0%;
+		height    : 2px;
+		background: #f33;
+		bottom    : 0px;
+		transition: 0.4s;
+		left      : 50%
+	}
+
+	&:hover:before {
+		width: 100%;
+		left : 0;
+	}
+}
+
+
+
+.footer {
+	background: #f1f2f6;
+
+	&__menu {
+		border-bottom: #DEDEDE 1px solid;
+	}
+}
