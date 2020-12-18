@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Linos</title>
+	<script src="https://kit.fontawesome.com/ed16a084b6.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="./style.css">
 </head>
 
@@ -23,7 +24,7 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -31,8 +32,9 @@
 						Banquetes
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Cocinados al momento</a>
-						<a class="dropdown-item" href="#">A domicilio, ya cocinados</a>
+						<a class="dropdown-item" href="banquetes.php">Banquetes</a>
+						<a class="dropdown-item" href="cocinados-al-momento.php">Cocinados al momento</a>
+						<a class="dropdown-item" href="a-domicilio.php">A domicilio, ya cocinados</a>
 					</div>
 				</li>
 
@@ -42,8 +44,9 @@
 						Comida japonesa
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Menús</a>
-						<a class="dropdown-item" href="#">Platillos</a>
+						<a class="dropdown-item" href="comida-japonesa.php">Comida japonesa</a>
+						<a class="dropdown-item" href="menus.php">Menús</a>
+						<a class="dropdown-item" href="platillos.php">Platillos</a>
 					</div>
 				</li>
 
@@ -53,21 +56,22 @@
 						Experiencia Linos
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Eventos</a>
-						<a class="dropdown-item" href="#">Servicios</a>
-						<a class="dropdown-item" href="#">Montaje</a>
-						<a class="dropdown-item" href="#">Política de servicio</a>
+						<a class="dropdown-item" href="experiencia-linos.php">Eventos</a>
+						<a class="dropdown-item" href="eventos.php">Eventos</a>
+						<a class="dropdown-item" href="servicios.php">Servicios</a>
+						<a class="dropdown-item" href="montaje.php">Montaje</a>
+						<a class="dropdown-item" href="politica-de-servicio.php">Política de servicio</a>
 					</div>
 				</li>
 
 
 
 				<li class="nav-item">
-					<a class="nav-link" href="#">Empresarial</a>
+					<a class="nav-link" href="empresarial.php">Empresarial</a>
 				</li>
 
 				<li class="nav-item linea-roja">
-					<a class="nav-link" href="#">Pedidos</a>
+					<a class="nav-link" href="pedidos.php">Pedidos</a>
 				</li>
 			</ul>
 		</div>

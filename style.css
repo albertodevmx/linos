@@ -9991,6 +9991,10 @@ body {
   background: #000;
 }
 
+.seccion {
+  padding-top: 100px;
+}
+
 @media (max-width: 760px) {
   .mi-navbar {
     background: #000;
@@ -10076,7 +10080,7 @@ body {
 }
 
 .form {
-  height: 600px;
+  height: 500px;
   position: relative;
 }
 @media (min-width: 761px) {
@@ -10087,6 +10091,16 @@ body {
 .form__info {
   width: 100%;
   z-index: 1;
+}
+.form__bloque {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+@media (min-width: 761px) {
+  .form__contenidos {
+    position: absolute;
+    bottom: 0px;
+  }
 }
 .form::after {
   content: "";
