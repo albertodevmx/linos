@@ -1,0 +1,67 @@
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family   : "Josefin Sans", sans-serif;
+	text-transform: uppercase;
+	font-weight   : 200;
+	color         : #fff;
+}
+
+p {
+	font-family: "Josefin Sans", sans-serif;
+	color      : #fff;
+	font-size  : 18px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 16px;
+	color    : #fff;
+}
+
+
+
+
+html {
+	overflow: hidden;
+	height  : 100%;
+}
+
+
+#page {
+	background: var(--bg-color);
+	color     : var(--text-color);
+	font      : normal 125%/1.4 Georgia, 'Times New Roman', Times, serif;
+	min-height: 100%;
+	transition: color .2s, background-color .2s;
+}
+
+a {
+	color: var(--theme-color);
+}
+
+button:focus {
+	outline: 0;
+}
+
+body {
+	background: #000;
+
+
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+hr {
+	margin: 30px 0px;
+	border: #fff 1px solid;
+}

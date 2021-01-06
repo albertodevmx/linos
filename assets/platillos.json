@@ -1,253 +1,1034 @@
 {   
-    "banquetes" : {
-        "platillos":{
-            "tokio":{
-                "id":"tokio", 
-                "tituloCorto":"Tokio",
-                "tituloLargo":"Menú Tokio", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tempura | Verduras y marisco<br>Yakimeshi<br>Tempura helado", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. </p><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). </p><p>California Roll Camarón/Surimi Por dentro camarón y barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. </p><p>Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. </p><p>Mango roll Natura Rollo maki forrado de mango natural/ por dentro queso philadelphia zanahoria tempura, lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3>Queso tipo. Manchego Pechuga de pollo Servidas con dos tipos de salsas* <p>Plátano Macho (tártara e inglesa) </p><h3>YAKITORI. ワイヤー - brocheta engarzada en kushi - </h3><p>Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto Y sishimi (ligero picante japonés) </p><h3>TEMPURA MIXTO (VERDURAS Y MARISCO) 魚や </h3><p>Cuatro tipos de verduras en corte fino (cebolla, calabaza, zanahoria y pimiento) combinadas y filete de pescado corte grueso (blanco de Nilo*) marinado con especias japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* </p><h3>YAKIMESHI お米 </h3><p>Arroz japonés asado a la plancha con cuatro tipos de verduras, huevo. Y condimentos japoneses + soya kikoman </p><p>*Acompañado con chiles toreados en salsa ponzu* </p><h3>TEMPURA HELADO デザート </h3><p>Helado de chocolate acompañado con pan crujiente horneado, con espejo de hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa. </p>"
-            }, 
-            "sendai":{
-                "id":"sendai", 
-                "tituloCorto":"Sendai",
-                "tituloLargo":"Menú Sendai", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. </p><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). </p><p>California Roll Surimi por dentro barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. </p><p>Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. </p><p>Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego + </p><p>Pechuga de pollo Servidas con dos tipos de salsas </p><p>Plátano macho (tártara - inglesa) </p><h3>YAKITORI. ワイヤー - brocheta engarzada en kushi - </h3><p>Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto Y sishimi (ligero picante japonés)</p>"
-            }, 
-            "sapporo":{
-                "id":"sapporo", 
-                "tituloCorto":"Sapporo",
-                "tituloLargo":"Menú Sapporo", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tepanyaki Niku<br>Tempura | Verduras y camarón<br>Yakimeshi<br>Tempura helado", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Sudaremaky Salmón Relleno de queso spicy, chipotle, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón corte medio. </p><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). </p><p>Kanikama roll Rollo maki con alga nori, forrado de kanikama por dentro aguacate queso philadelphia pepino y cebollín corte fino. </p><p>Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante caramelizado. </p><p>Mango roll Natura Rollo maki forrado de mango natural y por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><p>Spicy tuna atún fresco en cubo en pasta spicy acompañado de aguacate, cebollín, pepino /por fuera queso spicy y crocante de almendra horneada. </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego camarón con queso philadelfia </p><p>Pechuga de pollo champiñón Servidas con dos tipos de salsas </p><p>Plátano Macho (tártara inglesa) </p><h3>TEPPAN YAKI NIKU ロースト野菜 </h3><p>Siete tipos de verduras a la plancha con especias japonesas soya kikoman y arrachera angus marinada </p><p>Acompañado de salsa de ajonjolí y poro frito </p><h3>TEMPURA MIXTO (CAMARÓN Y VERDURAS) 魚や </h3><p>Cuatro tipos de verduras en corte medio individuales (aros de cebolla, calabaza, zanahoria y berenjena) combinadas, más camarones naturales marinados con especias Japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* </p><h3>YAKIMESHI お米 </h3><p>Arroz asado a la plancha con cuatro tipos de verduras y huevo. Y condimentos japoneses + soya kikoman </p><p>Acompañado de chiles toreados con cebollín corte fino </p><h3>TEMPURA HELADO デザート </h3><p>Helado de chocolate acompañado con pan crujiente horneado, con espejo de hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa.</p>"
-            }, 
-            "sapporoPremium":{
-                "id":"sapporoPremium", 
-                "tituloCorto":"Sapporo Premium",
-                "tituloLargo":"Menú Sapporo Premium", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Edamame mixto<br>Sushi Maki<br>Misoshiru<br>Nigiri Sushi<br>Kushi Ague<br>Tepanyaki Niku<br>Yakimeshi<br>Espuma de Fomu", 
-                "descripcionLarga":"<h3>EDAMAME MIXTO 枝豆 </h3><p>Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi </p><h3>SUSHI MAKI ロール </h3><p>Tampico roll Por dentro ensalada de surimi con verduras mixtas un toque de mayonesa y pepino, por fuera masago. </p><p>Spicy tuna atún fresco en aderezo spicy acompañado de aguacate, esparrago y por fuera aderezo chipotle y crocante de almendra. </p><p>Dinamita Roll Spicy por dentro barra de surimi, aguacate, esparrago, pepino / por fuera, queso con chipotle spicy, cebollín corte fino y crocante de almendra. </p><p>Dragón roll Forrado de camarón y por dentro pasta baby squit, masago y kanikama capeado, servido con aderezo spicy </p><p>Unagy roll cama de arroz sobre alga nori relleno de camarón tempura queso con chipotle, cebollín forrado de anguila en salsa tare acompañado de salsa teriyaki. </p><p>Tori Roll Gratin Maki Empanizado en panko con cangrejo, queso con chipotle, queso manchego, servido con salsa tare. </p><h3>MISOSHIRU スープ </h3><p>Sopa de pasta miso con cebollín, alga wacame y queso tofu con especias japonesas </p><h3>NIGIRI SUSHI, SALMON, CAMARON Y ATUN カマロン </h3><p>Piezas de salmón, camarón y atún con arroz japonés aderezado con mirin (acompañados con wasabi y jengibre) </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego </p><p>Camarón con queso philadelfia </p><p>Pechuga de pollo Servidas con dos tipos de salsas </p><p>(Tártara inglesa) </p><h3>TEPPAN YAKI NIKU ロースト野菜 </h3><p>Siete tipos de verduras a la plancha con especias japonesas soya kikoman, arrachera angus marinada, camarones corte mariposa </p><p>Acompañado de salsa de ajonjolí y poro frito </p><h3>YAKIMESHI お米 </h3><p>Arroz asado a la plancha con cuatro tipos de verduras y huevo. Y condimentos japoneses + soya kikoman </p><p>Acompañado de chiles toreados con cebollín corte fino </p><h3>ESPUMA DE FOMU デザート </h3><p>Copa de espuma de fomu en siffon sabor coco, espejo de hershey’s *Toppings* moléculas de frambuesa y pocky de té verde.</p>"
-            }, 
-            "osaka":{
-                "id":"osaka", 
-                "tituloCorto":"Osaka",
-                "tituloLargo":"Menú Osaka", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tepanyaki Niku<br>Tempura | Verdura y marisco<br>Yakimeshi<br>Tempura helado", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. </p><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). </p><p>California Roll Camarón/Surimi por dentro camarón y barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. </p><p>Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. </p><p>Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego Servidas con dos tipos de salsas </p><p>Pechuga de pollo (tártara inglesa) </p><p>Plátano Macho </p><h3>YAKITORI. ワイヤー - brocheta engarzada en kushi - </h3><p>Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto Y sishimi (ligero picante japonés) </p><h3>TEPPAN YAKI NIKU ロースト野菜 </h3><p>Siete tipos de verduras a la plancha con especias japonesas soya kikoman y arrachera angus marinada </p><p>Acompañado de salsa de ajonjolí y poro frito </p><h3>TEMPURA MIXTO (VERDURAS Y MARISCO) 魚や </h3><p>Cuatro tipos de verduras en corte fino (cebolla, calabaza, zanahoria y pimiento) combinadas y filete de pescado corte grueso (blanco de Nilo*) marinado con especias japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* </p><h3>YAKIMESHI お米 </h3><p>Arroz japonés asado a la plancha con cuatro tipos de verduras, huevo. Y condimentos japoneses + soya kikoman </p><p>Acompañado con chiles toreados* </p><h3>TEMPURA HELADO デザート </h3><p>Helado de chocolate acompañado con pan crujiente horneado, con espejo de Hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa.</p>"
-            }, 
-            "sakai":{
-                "id":"sakai", 
-                "tituloCorto":"Sakai",
-                "tituloLargo":"Menú Sakai", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Edamame<br>Misoshiru<br>Sushi Maki<br>Kushi Ague<br>Tempura | Camarón y verduras<br>Gohan Tampico<br>Tempura helado", 
-                "descripcionLarga":"<h3>EDAMAME 枝豆 </h3><p>Vaina japonesa al vapor con salsa de soya preparada /opcional./ asados a la plancha con aceite de ajonjolí y sishimi </p><h3>MISOSHIRU スープ </h3><p>Sopa de pasta miso con cebollín, alga wacame y queso tofu con especias japonesas </p><h3>SUSHI MAKI ロール </h3><p>Tori Roll Gratín Maki empanizado en panko con cangrejo, queso con chipotle, queso manchego, servido con salsa tare </p><p>Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. </p><p>California Roll Surimi por dentro barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. </p><p>Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego </p><p>Champiñón Servidas con dos tipos de salsas </p><p>Cangrejo con queso philadelfia (tártara inglesa) </p><h3>TEMPURA MIXTO (CAMARÓN Y VERDURAS) 魚や </h3><p>Cuatro tipos de verduras en corte medio individuales (aros de cebolla, calabaza, zanahoria y berenjena) combinadas más camarones naturales marinado con especias Japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* </p><h3>GOHAN TAMPICO お米 </h3><p>Arroz japonés al vapor servido en Bowl acompañado de salsa Tampico y chiles toreados con cebollín corte fino. </p><h3>TEMPURA HELADO デザート </h3><p>Helado de chocolate acompañado con pan crujiente horneado, con espejo de Hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa.</p>"
-            }, 
-            "kosherStyle":{
-                "id":"kosherStyle", 
-                "tituloCorto":"Kosher Style",
-                "tituloLargo":"Menú Kosher Style", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Ensalada Kany Tai<br>Tempura | Marisco y verduras<br>Yakimeshi<br>Gohan<br>Espuma de Fomu", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia (*PAULY) y salmón fresco corte medio. </p><p>Tampico Especial Por dentro ensalada tampico de surimi (*dyna sea) con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez capelán). </p><p>Spicy tuna atún fresco en aderezo spicy acompañado de aguacate, esparrago y por fuera aderezo chipotle y crocante de almendra. </p><p>Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa teriyaki agridulce, jengibre y crocante dulce. </p><p>Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia (*PAULY) zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego Marca Kurson Kosher* </p><p>Champiñón Servidas con dos tipos de salsas </p><p>Plátano Macho (tártara inglesa). </p><h3>ENSALADA KANY TAI サラダ </h3><p>Lechuga romana e italiana + espinaca baby con lluvia de primavera, pepino, esparrago a la mantequilla, surimi (*dyna sea), ajonjolí mixto, tofu, con aderezo de la casa de mango agridulce en tubito de ensayo. </p><h3>TEMPURA MIXTO (VERDURAS Y MARISCO) 魚や </h3><p>Cuatro tipos de verduras en corte fino (cebolla, calabaza, zanahoria y pimiento) combinadas y filete de pescado corte grueso </p><p>(Blanco de Nilo*) marinado con especias japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spacy.* </p><h3>YAKIMESHI お米 + </h3><p>Arroz japonés asado a la plancha con cuatro tipos de verduras (opcional) huevo+ condimentos japoneses con soya kikoman. </p><p>-acompañado de chiles toreados en salsa ponzu- </p><p>ARROZ JAPONES GOHAN Arroz al vapor </p><h3>ESPUMA DE FOMU デザート </h3><p>Copa de espuma de fomu en siffon sabor coco, espejo de hershey’s *Toppings* moléculas de frambuesa y pocky de té verde.</p>"
-            }, 
-            "hikari":{
-                "id":"hikari", 
-                "tituloCorto":"Hikari",
-                "tituloLargo":"Menú Hikari", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Edamame mixto<br>Sushi Bowl<br>Nigiri Sushi <br>Ensalada Kany Tai<br>Tempura corte fino<br>Helado Hikari", 
-                "descripcionLarga":"<h3>EDAMAME MIXTO 枝豆 </h3><p>Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi </p><p>SUSHI BOWL PREPARADOS AL MOMENTO ロール </p><p>Arroz japonés gohan al vapor servido en Bowl con atún fresco en cubos en pasta spicy, salmón corte grueso acompañado de aguacate, pepino, Cebollín, esparrago poro frito, ajonjolí mixto, lechuga lola rosa y jengibre gary. </p><h3>NIGIRI SUSHI MIXTO </h3><p>Arroz japonés aderezado con mirin y una pieza de CAMARÓN y SALMÓN fresco </p><p>Servidos con salsa ponzu, wasaby, jengibre y cebollín </p><h3>ENSALADA KANY TAI サラダ </h3><p>Lechuga romana e italiana + espinaca baby con lluvia de primavera, pepino, cangrejo, ajonjolí mixto, tofu, con aderezo de la casa de mango agridulce en tubito de ensayo. </p><h3>TEMPURA CORTE FINO 魚や </h3><p>Cinco tipos de verduras en corte fino capeadas en pasta tempura (cebolla, calabaza, zanahoria, brócoli, col de bruselas) </p><p>Servidas con salsa de tamarindo spacy. </p><h3>HELADO HIKARI 光 </h3><p>Helad de chocolate acompañado con pan crujiente horneado, con espejo de Hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa.</p>"
-            }, 
-            "kioto":{
-                "id":"kioto", 
-                "tituloCorto":"Kioto",
-                "tituloLargo":"Menú Kioto", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Edamame mixto<br>Sushi Maki<br>Nigiri Sushi Eby salmón<br>Kushi Ague<br>Yakitori mixto", 
-                "descripcionLarga":"<h3>EDAMAME MIXTO 枝豆 </h3><p>Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi </p><h3>SUSHI MAKI ロール </h3><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo picante +combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez capelán). </p><p>California Roll Camarón por dentro camarón, pepino, queso philadelphia, aguacate /Por fuera ajonjolí mixto tostado. </p><p>Dinamita Roll Spicy por dentro barra de surimi, aguacate, esparrago, pepino / por fuera, queso con chipotle spicy, cebollín corte fino y crocante de almendra. </p><p>Mango roll Natura Rollo maki forrado de mango natural/ por dentro queso philadelphia, surimi capeado tempura, lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>NIGIRI SUSHI EBY/ SALMON カマロン </h3><p>Camarón natural/Salmon fresco con arroz japonés aderezado con mirin (acompañados con wasabi y jengibre) </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego </p><p>Pechuga de pollo Servidas con dos tipos de salsas </p><p>Filete Marinado (tártara inglesa) </p><p>Camarón con queso philadelfia </p><h3>YAKITORI MIXTO ワイヤー - brocheta engarzada en kushi - </h3><p>Alambre de pollo con cebolla y zanahoria y alambre de lomo canadiense con cebolla y pimiento verde engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto y sishimi (ligero picante japonés).</p>"
-            }, 
-            "kiotoCharoleado":{
-                "id":"kiotoCharoleado", 
-                "tituloCorto":"Kioto Charoleado",
-                "tituloLargo":"Menú Kioto Charoleado", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Edamame mixto<br>Sushi Maki<br>Nigiri Sushi Eby<br>Kushi Ague<br>Yakitori mixto", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo picante +combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez capelán). </p><p>California Roll Camarón por dentro camarón, pepino, queso philadelphia, aguacate /Por fuera ajonjolí mixto tostado. </p><p>Dinamita Roll Spacy por dentro barra de surimi, aguacate, esparrago, pepino / por fuera, queso con chipotle spicy, cebollín corte fino y crocante de almendra. </p><p>Mango roll Natura Rollo maki forrado de mango natural/ por dentro queso philadelphia, surimi capeado tempura, lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><h3>NIGIRI SUSHI EBY カマロン </h3><p>Camarón natural con arroz japonés aderezado con mirin (acompañados con wasabi y jengibre) </p><h3>KUSHI AGUE パン粉 - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego </p><p>Pechuga de pollo </p><p>Camarón con queso philadelfia </p><p>Servidas con dos tipos de salsas </p><p>(Tártara inglesa) </p><h3>YAKITORI MIXTO ワイヤー - brocheta engarzada en kushi - </h3><p>Alambre de pollo con cebolla, zanahoria y alambre de lomo canadiense con cebolla y pimiento verde engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto y sishimi (ligero picante japonés).</p>"
-            }, 
-            "saitanaefrigerada":{
-                "id":"saitanaefrigerada", 
-                "tituloCorto":"Saitana | Refrigerada",
-                "tituloLargo":"Menú Saitana | Refrigerada", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki<br>Nigiri Sushi<br>Temaki<br>Rollo de Jicama", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. </p><p>Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). </p><p>California Roll Camarón/Surimi por dentro camarón y barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. </p><p>Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. </p><p>Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. </p><p>1 rollo por persona (9 trozos) </p><h3>NIGIRI SUSHI 刺身 (Arroz aderezado con mirin y marisco fresco) </h3><p>Ebi-camaron servidos con cebollín, Wasabi, ponzu y jengibre (Gary) </p><p>Salmon corte medio </p><p>Maguro-Atun </p><p>Kanikama 4 piezas por persona </p><h3>TEMAKI サラダ </h3><p>Hoja nori en cono, con arroz gohan e ingredientes a elegir: salmón, atún spicy, masago, tampico, verduras frescas, philadelfia, camarón, kanikama, wasabi y jengibre. 2 piezas por persona </p><h3>ROLLO DE JICAMA クズイモ </h3><p>Bocadillo de jícama corte fino con fajilla de nori relleno de philadelfia, Tampico, surimi, lechuga y pepino rallado.</p><p>2 piezas por persona.</p>"
-            }, 
-            "chisaiNinos":{
-                "id":"chisaiNinos", 
-                "tituloCorto":"Chisai | Niños",
-                "tituloLargo":"Menú Chisai | Niños", 
-                "imagen":"platillo-demo.png", 
-                "descripcionCorta":"Sushi Maki Jr.<br>Kushi Ague<br>Yakimeshi<br>Bebida Ramune", 
-                "descripcionLarga":"<h3>SUSHI MAKI ロール </h3><p>Kanikama JR. Alga nori con arroz gohan tricolor por dentro queso philadelphia pepino, kanikama y por fuera ajonjolí mixto. </p><p>Teriyaki Roll Rollo sin alga por dentro camarón, aguacate y por fuera kakeague bañado en salsa teriyaki. </p><p>Mango Roll Spicy Forrado de mango natural bañado en salsa spacy y crocante nuez por dentro zanahoria tempura, queso y cubos de pepino con sishimi. </p><p>4 trozos por persona.</p><h3>KUSHI AGUE パン粉 * PAPAS MIX - Brocheta empanizada en panko – </h3><p>Queso tipo. Manchego Servidas con dos tipos de salsas* </p><p>Pechuga de pollo (tártara e inglesa) 2 pzas </p><p>*Combinado de 3 tipos preparadas al momento (gajo, zigzag, francesa corte grueso) servidos en gueta de madera y salsa Heinz.</p><h3>YAKIMESHI お米 </h3><p>Arroz japonés asado a la plancha con cuatro tipos de verduras, huevo. Y condimentos japoneses + soya kikoman </p><h3>BEBIDA RAMUNE デザート </h3><p>Bebida japonesa de sabores combinados / postre copa de helado de chocolate, con espejo hershey´s.</p>"
-            }
-        }
-    },
-    "cajas" : 
-    {
-        "id": "cajas", 
-        "color": "#2dac4f", 
-        "categoria" : "Cajas", 
-        "category" : "Boxes", 
-        "imagen" : "images/categorias_fondos/cajas.jpg", 
-        "imagen_portada" : "images/categorias_portadas/cajas.jpg", 
-        "subcategorias": { 
-            "conbroche" : {
-                "id" : "conbroche", 
-                "nombre" : "Cajas con Broche", 
-				"name" : "Latch Clear Box", 
-                "imagen" : "images/productos/240.jpg",
-				"productos" : {
-                    "240" : {
-                        "id" : "240",
-						"subnombre" : "Caja c/tapa 15 Lts.",
-						"subname" : "Latch Clear Box", 
-                        "capacidad" : "15 Lts", 
-                        "medida" : "34 x 45 x 16.5 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/240.jpg"
-                    },
-                    "245" : {
-                        "id" : "245", 
-						"subnombre" : "Caja c/tapa 24 Lts.",
-						"subname" : "Latch Clear Box",
-                        "capacidad" : "24 Lts", 
-                        "medida" : "34 x 45 x 24 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/245.jpg"
-                    },
-                    "260" : {
-                        "id" : "260", 
-						"subnombre" : "Caja c/tapa 20 Lts.",
-						"subname" : "Latch Clear Box",
-                        "capacidad" : "20 Lts", 
-                        "medida" : "45 x 34 x 21 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/260.jpg"
-                    },
-                    "265" : {
-                        "id" : "265",
-						"subnombre" : "Caja c/tapa 29 Lts.",
-						"subname" : "Latch Clear Box", 
-                        "capacidad" : "29 Lts", 
-                        "medida" : "45 x 34 x 27 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/265.jpg"
-                    },
-                    "281" : {
-                        "id" : "281",
-						"subnombre" : "Caja c/tapa 2.4 Lts.",
-						"subname" : "Latch Clear Box", 
-                        "capacidad" : "2.4 Lts", 
-                        "medida" : "20.5 x 12 x 16 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/281.jpg"
-					},
-                    "282" : {
-                        "id" : "282",
-						"subnombre" : "Caja c/tapa 6 Lts.",
-						"subname" : "Latch Clear Box", 
-                        "capacidad" : "6 Lts", 
-                        "medida" : "26 x 17 x 20 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/282.jpg"
-					},
-	                 "283" : {
-                        "id" : "283", 
-						"subnombre" : "Caja c/tapa 10 Lts.",
-						"subname" : "Latch Clear Box",
-                        "capacidad" : "10 Lts", 
-                        "medida" : "32 x 19 x 24.5 cmss", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/283.jpg"} }				
-            }, 
-            "contapa" : {
-                "id" : "contapa",
-                "nombre" : "Cajas",
-				"name" : "Box", 
-                "imagen" : "images/productos/288.jpg",
-				"productos" : {
-                    "015" : {
-                       "id" : "015",
-                       "subnombre" : "Organizador Multiple",
-                       "subname" : "Organizer", 
-                       "capacidad" : "", 
-                       "medida" : "25.5 x 20 x 7 cms", 
-                       "piezas" : "12", 
-                       "imagen" : "images/productos/015.jpg"					
-                    },
-                    "286" : {
-                        "id" : "286", 
-						"subnombre" : "Caja c/tapa 0,75 Lts.",
-						"subname" : "Food saver",
-                        "capacidad" : "0.75 Lts", 
-                        "medida" : "22 x 12.5 x 6 cms", 
-                        "piezas" : "24", 
-                        "imagen" : "images/productos/286.jpg"
-                    },
-                    "287" : {
-                        "id" : "287", 
-						"subnombre" : "Caja c/tapa 1,50 Lts.",
-						"subname" : "Food saver",
-                        "capacidad" : "3.50 Lts", 
-                        "medida" : "226 x 16.5 x 7 cms", 
-                        "piezas" : "24", 
-                        "imagen" : "images/productos/287.jpg"
-                    },
-                    "288" : {
-                        "id" : "288",
-						"subnombre" : "Caja c/tapa 3,00 Lts.",
-						"subname" : "Food saver", 
-                        "capacidad" : "3.00 Lts", 
-                        "medida" : "29.5 x 20.5 x 9cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/288.jpg"
-                    },
-                    "290" : {
-                        "id" : "290",
-						"subnombre" : "Caja c/tapa 4 Lts.",
-						"subname" : "Box 4 Lts.", 
-                        "capacidad" : "4 Lts", 
-                        "medida" : "27 x 18 x 10.5 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/290.jpg"
-                    },
-                    "250" : {
-                        "id" : "250", 
-						"subnombre" : "Caja Rectangular Chica c/tapa 5 Lts.",
-						"subname" : "Refrigerator box",
-                        "capacidad" : "5 Lts", 
-                        "medida" : "23 x 34 x 12 cms", 
-                        "piezas" : "6", 
-                        "imagen" : "images/productos/250.jpg"
-                    },
-                    "256" : {
-                        "id" : "256",
-						"subnombre" : "Caja transparente con tapa",
-						"subname" : "Refrigerator box", 
-                        "capacidad" : "11 Lts", 
-                        "medida" : "30 x 37 x 16 cms", 
-                        "piezas" : "12", 
-                        "imagen" : "images/productos/256.jpg"
-                    }
+    "menus": {
+        "cocinados-al-momento" : {
+            "platillos":{
+                "tokio":{
+                    "id":"tokio", 
+                    "tituloCorto":"Tokio",
+                    "tituloLargo":"Menú Tokio", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-tokio/sushi-maki.png", 
+                    "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tempura | Verduras y marisco<br>Yakimeshi<br>Tempura helado", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "California Roll Camarón/Surimi Por dentro camarón y barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural/ por dentro queso philadelphia zanahoria tempura, lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez."
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego ", 
+                                "Pechuga de pollo Servidas con dos tipos de salsas* ", 
+                                "Plátano Macho (tártara e inglesa) "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI. ワイヤー - brocheta engarzada en kushi - ", 
+                            "lista":[
+                                "Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto Y sishimi (ligero picante japonés) "
+                            ],
+                            "imagen": "yakitori.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA MIXTO (VERDURAS Y MARISCO) <b>魚や</b>", 
+                            "lista":[
+                                "Cuatro tipos de verduras en corte fino (cebolla, calabaza, zanahoria y pimiento) combinadas y filete de pescado corte grueso (blanco de Nilo*) marinado con especias japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* "
+                            ],
+                            "imagen": "tempura-mixto.png"
+                        }, 
+
+                        {
+                            "titulo":"YAKIMESHI <b>お米</b>", 
+                            "lista":[
+                                "Arroz japonés asado a la plancha con cuatro tipos de verduras, huevo. Y condimentos japoneses + soya kikoman ", 
+                                "*Acompañado con chiles toreados en salsa ponzu* "
+                            ],
+                            "imagen": "yakimeshi.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA HELADO <b>デザート</b>", 
+                            "lista":[
+                                "Helado de chocolate acompañado con pan crujiente horneado, con espejo de hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa."
+                            ],
+                            "imagen": "tempura-helado.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "sendai":{
+                    "id":"sendai", 
+                    "tituloCorto":"Sendai",
+                    "tituloLargo":"Menú Sendai", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-sendai/kushi-ague.png", 
+                    "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "California Roll Surimi por dentro barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego ", 
+                                "Pechuga de pollo Servidas con dos tipos de salsas* ", 
+                                "Plátano Macho (tártara e inglesa) "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI. ワイヤー - brocheta engarzada en kushi - ", 
+                            "lista":[
+                                "Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto Y sishimi (ligero picante japonés)"
+                            ],
+                            "imagen": "yakitori.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "sapporo":{
+                    "id":"sapporo", 
+                    "tituloCorto":"Sapporo",
+                    "tituloLargo":"Menú Sapporo", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-sapporo/teppan-yaki-niku.png", 
+                    "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tepanyaki Niku<br>Tempura | Verduras y camarón<br>Yakimeshi<br>Tempura helado", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, chipotle, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "Kanikama roll Rollo maki con alga nori, forrado de kanikama por dentro aguacate queso philadelphia pepino y cebollín corte fino. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante caramelizado. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural y por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. ", 
+                                "Spicy tuna atún fresco en cubo en pasta spicy acompañado de aguacate, cebollín, pepino /por fuera queso spicy y crocante de almendra horneada"
+                            ],
+                            "imagen": "sushi-maki.png"
+                        },
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego camarón con queso philadelfia ", 
+                                "Pechuga de pollo champiñón Servidas con dos tipos de salsas ", 
+                                "Plátano Macho (tártara inglesa) "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo": "TEPPAN YAKI NIKU <b>ロースト野菜</b>", 
+                            "lista": [
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman y arrachera angus marinada ", 
+                                "Acompañado de salsa de ajonjolí y poro frito "
+                            ], 
+                            "imagen": "teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo": "TEMPURA MIXTO (CAMARÓN Y VERDURAS) <b>魚や</b> ", 
+                            "lista": [
+                                "Cuatro tipos de verduras en corte medio individuales (aros de cebolla, calabaza, zanahoria y berenjena) combinadas, más camarones naturales marinados con especias Japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* "
+                            ], 
+                            "imagen":"tempura-mixto.png"
+                        },
+                        {
+                            "titulo": "YAKIMESHI <b>お米</b>", 
+                            "lista":[
+                                "Arroz asado a la plancha con cuatro tipos de verduras y huevo. Y condimentos japoneses + soya kikoman ", 
+                                "Acompañado de chiles toreados con cebollín corte fino "
+                            ], 
+                            "imagen": "yakimeshi.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA HELADO <b>デザート</b>", 
+                            "lista":[
+                                "Helado de chocolate acompañado con pan crujiente horneado, con espejo de hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa."
+                            ],
+                            "imagen": "tempura-helado.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "sapporoPremium":{
+                    "id":"sapporoPremium", 
+                    "tituloCorto":"Sapporo Premium",
+                    "tituloLargo":"Menú Sapporo Premium", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-sapporo-premium/misoshiru.png", 
+                    "descripcionCorta":"Edamame mixto<br>Sushi Maki<br>Misoshiru<br>Nigiri Sushi<br>Kushi Ague<br>Tepanyaki Niku<br>Yakimeshi<br>Espuma de Fomu", 
+                    "descripcionLarga":[
+                        {
+                            "titulo": "EDAMAME MIXTO <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi "
+                            ], 
+                            "imagen":"edamame-mixto.png"
+                        }, 
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Tampico roll Por dentro ensalada de surimi con verduras mixtas un toque de mayonesa y pepino, por fuera masago. ", 
+                                "Spicy tuna atún fresco en aderezo spicy acompañado de aguacate, esparrago y por fuera aderezo chipotle y crocante de almendra. ", 
+                                "Dinamita Roll Spicy por dentro barra de surimi, aguacate, esparrago, pepino / por fuera, queso con chipotle spicy, cebollín corte fino y crocante de almendra. ", 
+                                "Dragón roll Forrado de camarón y por dentro pasta baby squit, masago y kanikama capeado, servido con aderezo spicy ", 
+                                "Unagy roll cama de arroz sobre alga nori relleno de camarón tempura queso con chipotle, cebollín forrado de anguila en salsa tare acompañado de salsa teriyaki. ", 
+                                "Tori Roll Gratin Maki Empanizado en panko con cangrejo, queso con chipotle, queso manchego, servido con salsa tare."
+                            ],
+                            "imagen": "sushi-maki.png"
+                        },
+                        {
+                            "titulo": "MISOSHIRU <b>スープ</b>", 
+                            "lista": [
+                                "Sopa de pasta miso con cebollín, alga wacame y queso tofu con especias japonesas "
+                            ], 
+                            "imagen": "misoshiru.png"
+                        }, 
+                        {
+                            "titulo":"NIGIRI SUSHI, SALMON, CAMARON Y ATUN <b>カマロン</b>", 
+                            "lista": [
+                                "Piezas de salmón, camarón y atún con arroz japonés aderezado con mirin (acompañados con wasabi y jengibre) "
+                            ], 
+                            "imagen":"nigiri-sushi-eby-salmon.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego ", 
+                                "Camarón con queso philadelfia ", 
+                                "Pechuga de pollo Servidas con dos tipos de salsas  (Tártara inglesa) "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo": "TEPPAN YAKI NIKU <b>ロースト野菜</b>", 
+                            "lista": [
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman, arrachera angus marinada, camarones corte mariposa ", 
+                                "Acompañado de salsa de ajonjolí y poro frito "
+                            ], 
+                            "imagen": "teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo": "YAKIMESHI <b>お米</b>", 
+                            "lista":[
+                                "Arroz asado a la plancha con cuatro tipos de verduras y huevo. Y condimentos japoneses + soya kikoman ", 
+                                "Acompañado de chiles toreados con cebollín corte fino "
+                            ], 
+                            "imagen": "yakimeshi.png"
+                        }, 
+                        {
+                            "titulo":"ESPUMA DE FOMU <b>デザート</b>", 
+                            "lista":[
+                                "Copa de espuma de fomu en siffon sabor coco, espejo de hershey’s *Toppings* moléculas de frambuesa y pocky de té verde."
+                            ],
+                            "imagen": "espuma.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "osaka":{
+                    "id":"osaka", 
+                    "tituloCorto":"Osaka",
+                    "tituloLargo":"Menú Osaka", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-osaka/teppan-yaki-niku.png", 
+                    "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tepanyaki Niku<br>Tempura | Verdura y marisco<br>Yakimeshi<br>Tempura helado", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "California Roll Camarón/Surimi por dentro camarón y barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego Servidas con dos tipos de salsas ", 
+                                "Pechuga de pollo (tártara inglesa) ", 
+                                "Plátano Macho "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI. ワイヤー - brocheta engarzada en kushi - ", 
+                            "lista":[
+                                "Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto Y sishimi (ligero picante japonés)"
+                            ],
+                            "imagen": "yakitori.png"
+                        }, 
+                        {
+                            "titulo": "TEPPAN YAKI NIKU <b>ロースト野菜</b>", 
+                            "lista": [
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman y arrachera angus marinada ", 
+                                "Acompañado de salsa de ajonjolí y poro frito "
+                            ], 
+                            "imagen": "teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA MIXTO (VERDURAS Y MARISCO) <b>魚や</b>", 
+                            "lista":[
+                                "Cuatro tipos de verduras en corte fino (cebolla, calabaza, zanahoria y pimiento) combinadas y filete de pescado corte grueso (blanco de Nilo*) marinado con especias japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.*"
+                            ],
+                            "imagen": "tempura-mixto.png"
+                        }, 
+
+                        {
+                            "titulo":"YAKIMESHI <b>お米</b>", 
+                            "lista":[
+                                "Arroz japonés asado a la plancha con cuatro tipos de verduras, huevo. Y condimentos japoneses + soya kikoman ", 
+                                "Acompañado con chiles toreados*"
+                            ],
+                            "imagen": "yakimeshi.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA HELADO <b>デザート</b>", 
+                            "lista":[
+                                "Helado de chocolate acompañado con pan crujiente horneado, con espejo de hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa."
+                            ],
+                            "imagen": "tempura-helado.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "sakai":{
+                    "id":"sakai", 
+                    "tituloCorto":"Sakai",
+                    "tituloLargo":"Menú Sakai", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-sakai/gohan-tampico.png", 
+                    "descripcionCorta":"Edamame<br>Misoshiru<br>Sushi Maki<br>Kushi Ague<br>Tempura | Camarón y verduras<br>Gohan Tampico<br>Tempura helado", 
+                    "descripcionLarga":[
+                        {
+                            "titulo": "EDAMAME <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi "
+                            ], 
+                            "imagen":"edamame-mixto.png"
+                        }, 
+                        {
+                            "titulo": "MISOSHIRU <b>スープ</b>", 
+                            "lista": [
+                                "Sopa de pasta miso con cebollín, alga wacame y queso tofu con especias japonesas "
+                            ], 
+                            "imagen": "misoshiru.png"
+                        }, 
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Tori Roll Gratín Maki empanizado en panko con cangrejo, queso con chipotle, queso manchego, servido con salsa tare ", 
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "California Roll Surimi por dentro barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        },
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego", 
+                                "Champiñón Servidas con dos tipos de salsas ", 
+                                "Cangrejo con queso philadelfia (tártara inglesa)"
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo": "TEMPURA MIXTO (CAMARÓN Y VERDURAS) <b>魚や</b>", 
+                            "lista": [
+                                "Cuatro tipos de verduras en corte medio individuales (aros de cebolla, calabaza, zanahoria y berenjena) combinadas más camarones naturales marinado con especias Japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spicy.* "
+                            ], 
+                            "imagen": "tempura-mixto.png"
+                        }, 
+                        {
+                            "titulo": "GOHAN TAMPICO <b>お米</b>", 
+                            "lista":[
+                                "Arroz japonés al vapor servido en Bowl acompañado de salsa Tampico y chiles toreados con cebollín corte fino."
+                            ], 
+                            "imagen": "gohan-tampico.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA HELADO <b>デザート</b>", 
+                            "lista":[
+                                "Helado de chocolate acompañado con pan crujiente horneado, con espejo de hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa."
+                            ],
+                            "imagen": "tempura-helado.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "kosherStyle":{
+                    "id":"kosherStyle", 
+                    "tituloCorto":"Kosher Style",
+                    "tituloLargo":"Menú Kosher Style", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-kosher/gohan.png", 
+                    "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Ensalada Kany Tai<br>Tempura | Marisco y verduras<br>Yakimeshi<br>Gohan<br>Espuma de Fomu", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia (*PAULY) y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi (*dyna sea) con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez capelán). ", 
+                                "Spicy tuna atún fresco en aderezo spicy acompañado de aguacate, esparrago y por fuera aderezo chipotle y crocante de almendra. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa teriyaki agridulce, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia (*PAULY) zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ], 
+                            "imagen":"sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego Marca Kurson Kosher* ", 
+                                "Champiñón Servidas con dos tipos de salsas ", 
+                                "Plátano Macho (tártara inglesa)."
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"ENSALADA KANY TAI <b>サラダ</b>", 
+                            "lista":[
+                                "Lechuga romana e italiana + espinaca baby con lluvia de primavera, pepino, esparrago a la mantequilla, surimi (*dyna sea), ajonjolí mixto, tofu, con aderezo de la casa de mango agridulce en tubito de ensayo."
+                            ], 
+                            "imagen":"ensalada-kany-tai.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA MIXTO (VERDURAS Y MARISCO) <b>魚や</b>", 
+                            "lista":[
+                                "Cuatro tipos de verduras en corte fino (cebolla, calabaza, zanahoria y pimiento) combinadas y filete de pescado corte grueso", 
+                                "(Blanco de Nilo*) marinado con especias japonesas y capeado en pasta tempura. *Salsa para acompañar tamarindo spacy.*"
+                            ], 
+                            "imagen":"tempura-mixto.png"
+                        }, 
+                        {
+                            "titulo": "YAKIMESHI <b>お米</b>", 
+                            "lista":[
+                                "Arroz japonés asado a la plancha con cuatro tipos de verduras (opcional) huevo+ condimentos japoneses con soya kikoman.", 
+                                "-acompañado de chiles toreados en salsa ponzu- "
+                            ], 
+                            "imagen": "yakimeshi.png"
+                        }, 
+                        {
+                            "titulo":"ARROZ JAPONES GOHAN", 
+                            "lista":[
+                                "Arroz al vapor"
+                            ], 
+                            "imagen":"imagen"
+                        }, 
+                        {
+                            "titulo":"ESPUMA DE FOMU <b>デザート</b>", 
+                            "lista":[
+                                "Copa de espuma de fomu en siffon sabor coco, espejo de hershey’s *Toppings* moléculas de frambuesa y pocky de té verde."
+                            ], 
+                            "imagen":"espuma.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "hikari":{
+                    "id":"hikari", 
+                    "tituloCorto":"Hikari",
+                    "tituloLargo":"Menú Hikari", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-hikari/ensalada-kany-tai.png", 
+                    "descripcionCorta":"Edamame mixto<br>Sushi Bowl<br>Nigiri Sushi <br>Ensalada Kany Tai<br>Tempura corte fino<br>Helado Hikari", 
+                    "descripcionLarga":[
+                        {
+                            "titulo": "EDAMAME MIXTO <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi "
+                            ], 
+                            "imagen":"edamame-mixto.png"
+                        }, 
+                        {
+                            "titulo":"SUSHI BOWL PREPARADOS AL MOMENTO <b>ロール</b>", 
+                            "lista":[
+                                "Arroz japonés gohan al vapor servido en Bowl con atún fresco en cubos en pasta spicy, salmón corte grueso acompañado de aguacate, pepino, Cebollín, esparrago poro frito, ajonjolí mixto, lechuga lola rosa y jengibre gary."
+                            ], 
+                            "imagen":"sushi-bowl.png"
+                        }, 
+                        {
+                            "titulo": "NIGIRI SUSHI MIXTO", 
+                            "lista":[
+                                "Arroz japonés aderezado con mirin y una pieza de CAMARÓN y SALMÓN fresco", 
+                                "Servidos con salsa ponzu, wasaby, jengibre y cebollín"
+                            ], 
+                            "imagen":"nigiri-sushi.png"
+                        }, 
+                        {
+                            "titulo":"ENSALADA KANY TAI <b>サラダ</b>", 
+                            "lista":[
+                                "Lechuga romana e italiana + espinaca baby con lluvia de primavera, pepino, cangrejo, ajonjolí mixto, tofu, con aderezo de la casa de mango agridulce en tubito de ensayo."
+                            ], 
+                            "imagen":"ensalada-kany-tai.png"
+                        }, 
+                        {
+                            "titulo":"TEMPURA CORTE FINO <b>魚や</b>", 
+                            "lista":[
+                                "Cinco tipos de verduras en corte fino capeadas en pasta tempura (cebolla, calabaza, zanahoria, brócoli, col de bruselas) ", 
+                                "Servidas con salsa de tamarindo spacy."
+                            ], 
+                            "imagen":"tempura-corte-fino.png"
+                        }, 
+                        {
+                            "titulo":"HELADO HIKARI <b>光</b>", 
+                            "lista":[
+                                "Helado de chocolate acompañado con pan crujiente horneado, con espejo de Hershey’s y bañado con salsa de fresa y perlas moleculares de frambuesa."
+                            ], 
+                            "imagen":"imagen"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "kioto":{
+                    "id":"kioto", 
+                    "tituloCorto":"Kioto",
+                    "tituloLargo":"Menú Kioto", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-kioto/nigiri-sushi-eby-salmon.png", 
+                    "descripcionCorta":"Edamame mixto<br>Sushi Maki<br>Nigiri Sushi Eby salmón<br>Kushi Ague<br>Yakitori mixto", 
+                    "descripcionLarga":[
+                        {
+                            "titulo": "EDAMAME MIXTO <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi "
+                            ], 
+                            "imagen":"edamame-mixto.png"
+                        }, 
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo picante +combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez capelán). ", 
+                                "California Roll Camarón por dentro camarón, pepino, queso philadelphia, aguacate /Por fuera ajonjolí mixto tostado. ", 
+                                "Dinamita Roll Spicy por dentro barra de surimi, aguacate, esparrago, pepino / por fuera, queso con chipotle spicy, cebollín corte fino y crocante de almendra. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural/ por dentro queso philadelphia, surimi capeado tempura, lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo": "NIGIRI SUSHI EBY/ SALMON カマロン ", 
+                            "lista":[
+                                "Camarón natural/Salmon fresco con arroz japonés aderezado con mirin (acompañados con wasabi y jengibre) "
+                            ], 
+                            "imagen":"nigiri-sushi-eby-salmon.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo. Manchego ", 
+                                "Pechuga de pollo Servidas con dos tipos de salsas ", 
+                                "Filete Marinado (tártara inglesa) ", 
+                                "Camarón con queso philadelfia "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI MIXTO ワイヤー - brocheta engarzada en kushi -", 
+                            "lista":[
+                                "Alambre de pollo con cebolla y zanahoria y alambre de lomo canadiense con cebolla y pimiento verde engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto y sishimi (ligero picante japonés)."
+                            ], 
+                            "imagen":"yakitori.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "kiotoCharoleado":{
+                    "id":"kiotoCharoleado", 
+                    "tituloCorto":"Kioto Charoleado",
+                    "tituloLargo":"Menú Kioto Charoleado", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-kioto-charoleado/edamame-mixto.png", 
+                    "descripcionCorta":"Edamame mixto<br>Sushi Maki<br>Nigiri Sushi Eby<br>Kushi Ague<br>Yakitori mixto", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo picante +combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez capelán). ", 
+                                "California Roll Camarón por dentro camarón, pepino, queso philadelphia, aguacate /Por fuera ajonjolí mixto tostado. ", 
+                                "Dinamita Roll Spacy por dentro barra de surimi, aguacate, esparrago, pepino / por fuera, queso con chipotle spicy, cebollín corte fino y crocante de almendra. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural/ por dentro queso philadelphia, surimi capeado tempura, lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez."
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"NIGIRI SUSHI EBY <b>カマロン</b>", 
+                            "lista":[
+                                "Camarón natural con arroz japonés aderezado con mirin (acompañados con wasabi y jengibre) "
+                            ], 
+                            "imagen":"nigiri-sushi-eby.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> <i>- Brocheta empanizada en panko –</i>", 
+                            "lista":[
+                                "Queso tipo. Manchego ", 
+                                "Pechuga de pollo ", 
+                                "Camarón con queso philadelfia ", 
+                                "Servidas con dos tipos de salsas ", 
+                                "(Tártara inglesa)"
+                            ], 
+                            "imagen":"kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI MIXTO <b>ワイヤー</b> <i>- brocheta engarzada en kushi -</i>", 
+                            "lista":[
+                                "Alambre de pollo con cebolla, zanahoria y alambre de lomo canadiense con cebolla y pimiento verde engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto y sishimi (ligero picante japonés)."
+                            ], 
+                            "imagen":"yakitori.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla-charoleado", "cocineros", "mesero", "equipo"]
+                }, 
+                "saitanaefrigerada":{
+                    "id":"saitanaefrigerada", 
+                    "tituloCorto":"Saitana | Refrigerada",
+                    "tituloLargo":"Menú Saitana | Refrigerada", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-saitama/sushi-makipng.png", 
+                    "descripcionCorta":"Sushi Maki<br>Nigiri Sushi<br>Temaki<br>Rollo de Jicama", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "California Roll Camarón/Surimi por dentro camarón y barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. ", 
+                                "1 rollo por persona (9 trozos) "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"NIGIRI SUSHI <b>刺身</b> <i>(Arroz aderezado con mirin y marisco fresco)</i>", 
+                            "lista": [
+                                "Ebi-camaron servidos con cebollín, Wasabi, ponzu y jengibre (Gary) ", 
+                                "Salmon corte medio ", 
+                                "Maguro-Atun ", 
+                                "Kanikama 4 piezas por persona"
+                            ], 
+                            "imagen":"nigiri-sushi-eby-salmon.png"
+                        }, 
+                        {
+                            "titulo":"TEMAKI <b>サラダ</b>", 
+                            "lista":[
+                                "Hoja nori en cono, con arroz gohan e ingredientes a elegir: salmón, atún spicy, masago, tampico, verduras frescas, philadelfia, camarón, kanikama, wasabi y jengibre. 2 piezas por persona"
+                            ], 
+                            "imagen":""
+                        }, 
+                        {
+                            "titulo":"ROLLO DE JICAMA <b>クズイモ</b>", 
+                            "lista":[
+                                "Bocadillo de jícama corte fino con fajilla de nori relleno de philadelfia, Tampico, surimi, lechuga y pepino rallado.", 
+                                "2 piezas por persona."
+                            ], 
+                            "imagen":"imagen"
+                        }
+                    ], 
+                    "incluye": ["vajilla-barra-refrigerada", "cocineros", "mesero", "equipo"]
+                }, 
+                "chisaiNinos":{
+                    "id":"chisaiNinos", 
+                    "tituloCorto":"Chisai | Niños",
+                    "tituloLargo":"Menú Chisai | Niños", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-chisai/kushi-ague.png", 
+                    "descripcionCorta":"Sushi Maki Jr.<br>Kushi Ague<br>Yakimeshi<br>Bebida Ramune", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Kanikama JR. Alga nori con arroz gohan tricolor por dentro queso philadelphia pepino, kanikama y por fuera ajonjolí mixto. ", 
+                                "Teriyaki Roll Rollo sin alga por dentro camarón, aguacate y por fuera kakeague bañado en salsa teriyaki. ", 
+                                "Mango Roll Spicy Forrado de mango natural bañado en salsa spacy y crocante nuez por dentro zanahoria tempura, queso y cubos de pepino con sishimi. ", 
+                                "4 trozos por persona."
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> * PAPAS MIX <i>- Brocheta empanizada en panko –</i>", 
+                            "lista":[
+                                "Queso tipo. Manchego Servidas con dos tipos de salsas* ", 
+                                "Pechuga de pollo (tártara e inglesa) 2 pzas ", 
+                                "*Combinado de 3 tipos preparadas al momento (gajo, zigzag, francesa corte grueso) servidos en gueta de madera y salsa Heinz."
+                            ], 
+                            "imagen":"kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKIMESHI <b>お米</b>", 
+                            "lista":[
+                                "Arroz japonés asado a la plancha con cuatro tipos de verduras, huevo. Y condimentos japoneses + soya kikoman"
+                            ],
+                            "imagen": "yakimeshi.png"
+                        }, 
+                        {
+                            "titulo":"BEBIDA RAMUNE <b>デザート</b>", 
+                            "lista":[
+                                "Bebida japonesa de sabores combinados / postre copa de helado de chocolate, con espejo hershey´s."
+                            ], 
+                            "imagen":"bebida-ramune.png"
+                        }
+                    ], 
+                    "opciones":{
+                        "titulo":"Opciones de Menú Chisai", 
+                        "opciones":[
+                            {
+                                "titulo":"Tipo A", 
+                                "descripcion":"Este menú puede ser contratado en tipo BOX LUNCH, lo que facilita el manejo de los platillos y mejora el consumo por parte de nuestros pequeños comensales."
+                            }, 
+                            {
+                                "titulo":"Tipo B", 
+                                "descripcion":"El servicio incluye el equipo necesario para servir los platillos, como son platos cuadrados además de artículos necesarios para decorar un buffet (no incluye mesa y mantel)."
+                            }
+                        ]
+                    }, 
+                    "incluye": ["cocineros", "mesero", "equipo"]
                 }
             }
+        }, 
+        "obentos" : {
+            "platillos":{
+                "obento-1":{
+                    "id":"obento-1", 
+                    "tituloCorto":"Obento 1",
+                    "subtitulo":"Mar y Tierra", 
+                    "tituloLargo":"Obento 1.  Mar y tierra", 
+                    "imagen":"obento-1.png", 
+                    "descripcionCorta":"Edamame<br>Kushi Ague<br>Tepanyaki Niku Mar y Tierra<br>Arroz Gohan", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"EDAMAME  MIXTO <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi"
+                            ],
+                            "imagen": "edamame-mixto.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo.  Manchego  2 PZAS <i>Servidas con dos tipos de salsas (Tártara inglesa)</i>", 
+                                "Plátano Macho   2 PZAS"
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"TEPPAN YAKI  NIKU MAR Y TIERRA <b>ロースト野菜</b> <i>1 ORDEN</i>", 
+                            "lista":[
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman, arrachera angus marinada, camarones corte mariposa", 
+                                "Acompañado de salsa sésamo oriental."
+                            ], 
+                            "imagen":"teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo":"ARROZ GOHAN <b>お米</b> <i>1 ORDEN</i>", 
+                            "lista":[
+                                "Arroz Japonés al vapor con ajonjolí negro, acompañado de salsa tampico y chiles toreados"
+                            ], 
+                            "imagen":"gohan-tampico.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "obento-2":{
+                    "id":"obento-2", 
+                    "tituloCorto":"Obento 2",
+                    "subtitulo":"Pesca del día", 
+                    "tituloLargo":"Obento 2. Pesca del día", 
+                    "imagen":"obento-2.png", 
+                    "descripcionCorta":"Edamame mixto<br>Sushi Bowl<br>Kushi Ague<br>Nigiri Sushi<br>Ensalada Kany Tai<br>", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"EDAMAME  MIXTO <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi"
+                            ],
+                            "imagen": "edamame-mixto.png"
+                        },
+                        {
+                            "titulo":"SUSHI BOWL <b>ロール</b>", 
+                            "lista":[
+                                "Arroz japonés gohan al vapor con ajonjolí negro tostado, pepino en aderezo sésame, esparrago, lechuga italiana, poro frito.", 
+                                "Salmon fresco corte grueso y cubos de atún fresco, con aderezo spacy y cebollín corte fino. "
+                            ],
+                            "imagen": "sushi-bowl.png"
+                        },
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> –", 
+                            "lista":[
+                                "Queso tipo.  Manchego  1 PZAS <i>Servidas con dos tipos de salsas (Tártara inglesa)</i>", 
+                                "Plátano Macho   1 PZAS"
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"NIGIRI SUSHI <b>カマロン</b> <i>2 PZAS</i>", 
+                            "lista":[
+                                "Camarón natural con arroz japonés aderezado con mirin y salmón corte grueso (acompañados con wasabi y jengibre)"
+                            ], 
+                            "imagen":"nigiri-sushi.png"
+                        }, 
+                        {
+                            "titulo":" ENSALADA KANY TAI <b>サラダ</b>", 
+                            "lista":[
+                                "Lechuga romana e italiana + espinaca baby con lluvia de primavera, pepino, esparrago a la mantequilla, surimi, ajonjolí mixto, con aderezo de la casa de mango agridulce."
+                            ], 
+                            "imagen":"ensalada-kany-tai.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "obento-3":{
+                    "id":"obento-3", 
+                    "tituloCorto":"Obento 3",
+                    "subtitulo":"Tori Roll", 
+                    "tituloLargo":"Obento 3. TORI ROLL", 
+                    "imagen":"obento-3.png", 
+                    "descripcionCorta":"Sushi Maki<br>Tepanyaki Niku Mar y Tierra<br>Arroz Gohan<br>", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b> <i>8 PIEZAS</i>", 
+                            "lista":[
+                                "Tori Roll Gratin Maki empanizado en panko con cangrejo, queso con chipotle, queso manchego, servido con salsa tare."
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"TEPPAN YAKI  NIKU MAR Y TIERRA <b>ロースト野菜</b> <i>1 ORDEN</i>", 
+                            "lista":[
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman, arrachera angus marinada, camarones corte mariposa", 
+                                "Acompañado de salsa sésamo oriental."
+                            ], 
+                            "imagen":"teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo":"ARROZ GOHAN <b>お米</b> <i>1 ORDEN</i>", 
+                            "lista":[
+                                "Arroz Japonés al vapor con ajonjolí negro, acompañado de salsa tampico y chiles toreados"
+                            ], 
+                            "imagen":"gohan-tampico.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "obento-4":{
+                    "id":"obento-4", 
+                    "tituloCorto":"Obento 4",
+                    "subtitulo":"Mix", 
+                    "tituloLargo":"Obento 4. MIX", 
+                    "imagen":"obento-4.png", 
+                    "descripcionCorta":"Sushi Maki<br>Tepanyaki Niku Mar y Tierra<br>Sushi Bowl", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b> <i>9 TROZOS EN TOTAL</i>", 
+                            "lista":[
+                                "Sudaremaky Salmón  Relleno de queso spacy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio.", 
+                                "Spacy tuna atún fresco en aderezo spacy acompañado de aguacate, esparrago y por fuera aderezo chipotle y crocante de almendra."
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"TEPPAN YAKI  NIKU MAR Y TIERRA <b>ロースト野菜</b> <i>1 ORDEN</i>", 
+                            "lista":[
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman, arrachera angus marinada, camarones corte mariposa", 
+                                "Acompañado de salsa sésamo oriental."
+                            ], 
+                            "imagen":"teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo":"SUSHI BOWL <b>ロール</b> <i>1 ORDEN</i>", 
+                            "lista":[
+                                "Arroz japonés gohan al vapor con ajonjolí negro tostado, pepino en aderezo sésame, esparrago, lechuga italiana, poro frito.", 
+                                "Salmon fresco corte grueso y cubos de atún fresco, con aderezo spacy y cebollín corte fino."
+                            ], 
+                            "imagen":"sushi-bowl.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }
+            }
+        },
+        "a-domicilio" : {
+            "platillos":{
+                "minami":{
+                    "id":"minami", 
+                    "tituloCorto":"Minami",
+                    "subtitulo":"Mar y Tierra", 
+                    "tituloLargo":"Menú Minami", 
+                    "imagen":"teppan-yaki-niku.png", 
+                    "descripcionCorta":"Edamame<br>Kushi Ague<br>Tepanyaki Niku Mar y Tierra<br>Arroz Gohan", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "California Roll Surimi por dentro barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. ", 
+                                "1 rollo por persona (9 trozos) "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> - <i>Brocheta empanizada en panko</i> – 4 brocheta por persona", 
+                            "lista":[
+                                "Queso tipo. Manchego Servidas con dos tipos de salsas ", 
+                                "Pechuga de pollo (tártara inglesa) ", 
+                                "Plátano Macho "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI. <b>ワイヤー</b> <i>- brocheta engarzada en kushi -</i> ", 
+                            "lista":[
+                                "Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto ", 
+                                "Y sishimi (ligero picante japonés) 2 piezas "
+                            ],
+                            "imagen": "yakitori.png"
+                        }, 
+                        {
+                            "titulo": "TEPPAN YAKI NIKU <b>ロースト野菜</b> <i>1 orden 300 gramos</i>", 
+                            "lista": [
+                                "Siete tipos de verduras a la plancha con especias japonesas soya kikoman y arrachera angus marinada ", 
+                                "Acompañado de chiles toreados y cebollín corte fino"
+                            ], 
+                            "imagen": "teppan-yaki-niku.png"
+                        },                        
+                        {
+                            "titulo":"YAKIMESHI <b>お米</b> <i>1 orden 200 gramos</i>", 
+                            "lista":[
+                                "Arroz asado a la plancha con cuatro tipos de verduras (cebolla calabaza pimiento y zanahoria) + huevo con condimentos japoneses y soya kikoman"
+                            ],
+                            "imagen": "yakimeshi.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "nagoya":{
+                    "id":"nagoya", 
+                    "tituloCorto":"Nagoya",
+                    "subtitulo":"Pesca del día", 
+                    "tituloLargo":"Menú Nagoya", 
+                    "imagen":"teppan-yaki-niku.png", 
+                    "descripcionCorta":"Edamame mixto<br>Sushi Bowl<br>Kushi Ague<br>Nigiri Sushi<br>Ensalada Kany Tai<br>", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b> <i>1 ROLLO POR PERSONA 9 TROZOS</i>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ", 
+                                "Tampico Especial Por dentro ensalada tampico de surimi con aderezo combinado de verduras, pepino/ por fuera ajonjolí negro tostado y masago (hueva de pez volador). ", 
+                                "California Roll Surimi por dentro barra de cangrejo, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ", 
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ", 
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b> パン粉</b> 4 BROCHETAS POR PERSONA <i>– kushiague empanizada en panko-</i>", 
+                            "lista":[
+                                "Queso tipo. Manchego ", 
+                                "Pechuga de pollo Servidas con dos tipos de salsas ", 
+                                "Plátano Macho (tártara inglesa) "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"YAKITORI. <b>ワイヤー</b> 2 ALAMBRES POR PERSONA  <i>- brocheta engarzada en kushi -</i>", 
+                            "lista":[
+                                "Alambre de pollo con cebolla y zanahoria engarzado en kushi asado a la plancha y salseado con teriyaki montado con ajonjolí mixto ", 
+                                "Y sishimi (ligero picante japonés)."
+                            ],
+                            "imagen": "yakitori.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }, 
+                "ibakari":{
+                    "id":"ibakari", 
+                    "tituloCorto":"Ibakari",
+                    "subtitulo":"Tori Roll", 
+                    "tituloLargo":"Menú Ibaraki", 
+                    "imagen":"teppan-yaki-niku.png", 
+                    "descripcionCorta":"Sushi Maki<br>Tepanyaki Niku Mar y Tierra<br>Arroz Gohan<br>", 
+                    "descripcionLarga":[
+                        {
+                            "titulo":"EDAMAME <b>枝豆</b>", 
+                            "lista":[
+                                "Vaina japonesa al vapor con salsa de soya ponzu preparada /.opcional./ asados a la plancha con aceite de ajonjolí y sishimi "
+                            ], 
+                            "imagen":"edamame-mixto.png"
+                        }, 
+                        {
+                            "titulo":"SUSHI MAKI <b>ロール</b> <i>1 rollo por persona (9 trozos)</i>", 
+                            "lista":[
+                                "Sudaremaky Salmón Relleno de queso spicy, poro frito, pepino y por fuera cebollín, queso philadelphia y salmón fresco corte medio. ",  
+                                "California Roll Camarón por dentro camarón, pepino, queso philadelphia, aguacate (opcional) /Por fuera ajonjolí mixto. ",  
+                                "Futomaky Rainbow Hoja de nori por fuera, arroz gohan con verdura curtida en mirin servido con salsa de anguila, jengibre y crocante dulce. ",  
+                                "Mango roll Natura Rollo maki forrado de mango natural por dentro queso philadelphia zanahoria tempura lechuga baby, bañado con aderezo agridulce de mango y crocante de nuez. "
+                            ],
+                            "imagen": "sushi-maki.png"
+                        }, 
+                        {
+                            "titulo":"KUSHI AGUE <b>パン粉</b> total 4 pzas. por personas <i>- Brocheta empanizada en panko –</i>", 
+                            "lista":[
+                                "Queso tipo. Manchego Servidas con dos tipos de salsas ", 
+                                "Camarón con queso philadelfia (tártara inglesa) "
+                            ],
+                            "imagen": "kushi-ague.png"
+                        }, 
+                        {
+                            "titulo":"TEPPAN YAKI NIKU <b>ロースト野菜</b> <i>1 orden 300 gramos</i>", 
+                            "lista":[
+                                "Siete tipos de verduras corte medio a la plancha con especias japonesas, poro frito en salsa ponzu y arrachera angus canadiense."
+                            ],
+                            "imagen": "teppan-yaki-niku.png"
+                        }, 
+                        {
+                            "titulo":"YAKIMESHI TERIYAKI <b>お米</b> <i>1 orden 200 gramos</i>", 
+                            "lista":[
+                                "Arroz asado a la plancha con cuatro tipos de verduras, fajita de pechuga en salsa teriyaki + huevo con condimentos japoneses y soya kikoman, *Acompañado de salsa Tampico.*"
+                            ],
+                            "imagen": "yakimeshi.png"
+                        }
+                    ], 
+                    "incluye": ["vajilla", "cocineros", "mesero", "equipo"]
+                }
+            }
+        }
+    }, 
+    "incluye":{
+        "vajilla":{
+            "titulo":"Vajilla", 
+            "texto":"Platos cuadrados, salseras, tablas para sushi y artículos especiales para servir los platillos y decorar una mesa de buffet.  (no incluye mesa y mantel)",
+            "icono":"icono-vajilla.png"
+        }, 
+        "cocineros":{
+            "titulo":"Cocineros", 
+            "texto":"Nuestros cocineros están altamente capacitados en el arte de la cocina japonesa, déjate deleitarte con su experiencia y buen gusto.",
+            "icono":"icono-cocineros.png"
+        }, 
+        "mesero":{
+            "titulo":"Mesero", 
+            "texto":"Contamos con meseros que están para atender a tus invitamos de la mejor manera, disfruta de nuestro servicio.  Todos portan cubrebocas, Googles de protección y cumplen con las normas de salubridad vigente.",
+            "icono":"icono-mesero.png"
+        }, 
+        "equipo":{
+            "titulo":"Equipo de cocina al momento", 
+            "texto":"Plancha, parrilla freidora, mesas de trabajo e ingredientes frescos.",
+            "icono":"icono-equipo-cocina-almomento.png"
+        }, 
+        "vajilla-charoleado":{
+            "titulo":"Vajilla para Charoleo", 
+            "texto":"Incluye el equipo necesario para servir los platillos como son platos cuadrados mini, salseras japonesas y palillos, este menú es para servirse exclusivamente en Charoleo.<br><br> <i>Esta indicado cuando no se cuenta con mobiliario y mesas de buffet</i>",
+            "icono":"icono-vajilla-charoleado.png"
+        }, 
+        "vajilla-barra-refrigerada":{
+            "titulo":"Barra Refrigerada | Vajilla", 
+            "texto":"Incluye barra refrigerada, vajilla con platos cuadrados, salseras, tablas para sushi y artículos especiales para servir los platillos y decorar una mesa de buffet.",
+            "icono":"icono-barra-refrijearada.png"
         }
     }
 }

@@ -1,3 +1,18 @@
+jQuery(function($) {
+  $('.desplazar').on('click', function(e) {
+      e.preventDefault();
+      var scrollTo = $(this).attr('href'); // retrieve the hash using .attr()
+
+      if (scrollTo != null && scrollTo != '') {
+          $('html, body').animate({
+              scrollTop: $(scrollTo).offset().top
+          }, 1500);
+      }
+  });
+});
+
+
+
 // $(window).on('load', function() {
 //     // init Isotope
 //     var $grid = $('.grid').isotope({

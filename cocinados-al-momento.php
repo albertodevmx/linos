@@ -3,7 +3,7 @@
 
 <div class="container-fluid seccion">
     <div class="container">
-        <div class="row carta">
+        <div class="row d-flex platillos">
 
             
             <?php
@@ -13,21 +13,35 @@
 
             
 
-            <?php foreach ( $json_a['banquetes']['platillos'] AS $producto ) { ?>
+            <?php foreach ( $json_a['menus']['cocinados-al-momento']['platillos'] AS $producto ) { ?>
+ 
+                    <div class="col-6 col-md-4 col-lg-3 p-3 pl-md-5 pr-md-5">
+                        
+                        <div class="platillos__item">
+                            <div class="platillos__item__body">
+                                <h4 class="platillos__item__body__titulo text-center p-2">
+                                    <?php echo $producto['tituloCorto']; ?>
+                                </h4>
+        
+                                <p class="platillos__item__body__descripcion text-center pt-3 pb-3">
+                                    <?php echo $producto['descripcionCorta']; ?>
+                                </p>
+                            </div>
+                            
+                            <div class="platillos__item__footer">
+                                <div class="platillos__item__footer__imagen">
+                                    <img src="<?php echo $producto['imagen']; ?>" alt="">
+                                </div>
 
-                    <div class="col-6 col-md-3 p-3 carta__item">
-                        <h4><?php echo $producto['tituloCorto']; ?></h4>
-                        <img src="./img/<?php echo $producto['imagen']; ?>" alt="" class="w-100">
-                        <p>
-                            <?php echo $producto['descripcionCorta']; ?>
-                        </p>
-                        <p>
-                            <a href="platillo-detalle.php?id=<?php echo $producto['id']; ?>" class="btn btn-danger">
-                                Ver detalles
-                            </a>
-                        </p>
+                                <p class="platillos__item__footer__enlace">
+                                    <a href="platillo-detalle.php?id=<?php echo $producto['id']; ?>">
+                                        <i class="fas fa-plus-circle"></i> Ver detalles
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
-
                     
             <?php } ?>
 

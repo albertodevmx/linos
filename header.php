@@ -45,8 +45,8 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="comida-japonesa.php">Comida japonesa</a>
-						<a class="dropdown-item" href="menus.php">Menús</a>
-						<a class="dropdown-item" href="platillos.php">Platillos</a>
+						<a class="dropdown-item" href="menus-japoneses.php">Menús</a>
+						<a class="dropdown-item" href="platillos-japoneses.php">Platillos</a>
 					</div>
 				</li>
 
@@ -56,11 +56,11 @@
 						Experiencia Linos
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="experiencia-linos.php">Eventos</a>
-						<a class="dropdown-item" href="eventos.php">Eventos</a>
-						<a class="dropdown-item" href="servicios.php">Servicios</a>
-						<a class="dropdown-item" href="montaje.php">Montaje</a>
-						<a class="dropdown-item" href="politica-de-servicio.php">Política de servicio</a>
+						<a class="dropdown-item" href="experiencia-linos.php">Experiencia Linos</a>
+						<a class="dropdown-item" href="experiencia-linos-eventos.php">Eventos</a>
+						<a class="dropdown-item" href="experiencia-linos-servicios.php">Servicios</a>
+						<a class="dropdown-item" href="experiencia-linos-montaje.php">Montaje</a>
+						<a class="dropdown-item" href="politicas-y-reservaciones.php">Política de servicio</a>
 					</div>
 				</li>
 

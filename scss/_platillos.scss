@@ -1,0 +1,156 @@
+.margen {
+    padding-top: 160px;
+}
+
+.platillos {
+    padding-top: 150px;
+
+    &__item {
+        position: relative;
+        height: 100%;
+        transition: 0.6s;
+
+        &__body {
+            padding-bottom: 185px;
+
+            &__titulo {
+                border: #fff 1px solid;
+                font-size: 16px;
+                line-height: 1em;
+
+                
+            }
+            
+            &__descripcion {
+                line-height: 1.2em;
+                font-size: 16px;
+            }
+        }
+
+        &__footer {
+            position: absolute;
+            bottom: 0;
+
+            &__imagen {
+                text-align: center;
+                
+                & img {
+                    width: 80%;
+                }
+            }
+    
+            &__enlace {
+                margin-top: 15px;
+                text-align: right;
+                & a {
+                    text-align: right;
+                    padding: 5px;
+                    font-size: 14px;
+
+                    &:hover {
+                        // background: rgba(255,255,255,0.1);
+                        color: #fff;
+                        text-decoration: none;
+
+                        & i {
+                            color: #f00;
+                        }
+                    }                    
+                }
+            }
+        }
+
+        &:hover {
+            background:rgba($color: #f00, $alpha: 0.1);
+
+            &__body {
+                &__titulo {
+                    background: rgba(255,255,255,0.1);
+                }
+            }
+
+        }
+    }
+}
+
+
+.platillo {
+
+    &__elemento {
+        border-bottom: #fff 1px solid;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+
+        &:last-child {
+            border-bottom: 0px;
+        }
+
+        &__titulo {
+            color: #FFF;
+            font-size: 24px;
+            margin-bottom: 30px;
+
+            & b {
+                color: #f66;
+            }
+
+            & i {
+                color: #DDD;
+                font-size: 0.8em;
+            }
+        }
+
+        &__descripcion {
+            & p {
+                font-size: 16px;
+            }
+        }
+
+        & li {
+            color: #AAA;
+            margin-bottom: 15px;
+        }
+
+        &__imagen {
+            width: 80%;
+        }
+    }
+}
+
+.menu-lateral {
+
+    &__enlace {
+        display: block;
+        color: #fff;
+    }
+}
+
+
+.incluye {
+
+    &__item {
+        display: block;
+        color: #fff;
+
+        &__titulo {
+            font-size: 18px;
+            min-height: 40px;
+        }
+
+        &__imagen {
+            text-align: center;
+            margin: 20px 0;
+
+            & img {
+                width: 60%;;
+            }
+        }
+
+        &__texto {
+            font-size: 17px;
+            line-height: 1em;
+            text-align: center;
+        }
+    }
+}

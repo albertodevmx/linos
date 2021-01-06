@@ -1,8 +1,33 @@
-    <footer class="footer">
+    <footer class="footer bg-light">
         <div class="container-fluid footer__menu">
             <div class="row">
-                <div class="col-12 p-5">
-                    Home
+                <div class="col-12 col-md-4 p-5">
+                    <img src="./img/logotipo.png" alt="">
+                </div>
+
+				<div class="col-12 col-md-4 p-5">
+					<h5>Linos Banquetes Japoneses</h5>
+					<ul>
+						<li><a href="index.php">Platillos</a></li>
+						<li><a href="index.php">Menus</a></li>
+						<li><a href="index.php">Servicios</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="index.php">Políticas de Servicio</a></li>
+						<li><a href="index.php">Aviso de Privacidad</a></li>
+						<li><a href="index.php">Créditos</a></li>
+					</ul>
+
+                </div>
+
+				<div class="col-12 col-md-4 p-5">
+					<h5>Contacto</h5>
+					<p>
+						Tel. 5822 3521 y 5824 94437<br>
+						WhatsApp. 55 4084 3940<br>
+						info@linosbanquetesjaponeses.com.mx
+					</p>
                 </div>
             </div>
         </div>
