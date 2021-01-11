@@ -13,18 +13,18 @@ $incluye = $archivo_json["incluye"];
 ?>
 
 
-<div class="container-fluid seccion">
-    <div class="container margen">
+<div class="container-fluid content push">
+    <div class="container">
         
         <div class="row">
 
-            <div class="col-9 p-3">
+            <div class="col-12 col-md-9 p-3">
                 <div class="platillo pt-3 pb-3">
                     <div class="row">
                         <div class="col-12 p-3">
-                            <h4 class="platillo__titulo">
+                            <h1 class="platillo__titulo text-center text-md-left p-3">
                                 <?php echo $menu['tituloLargo'] ?>
-                            </h4>
+                            </h1>
                         </div>
                     </div>
 
@@ -34,14 +34,14 @@ $incluye = $archivo_json["incluye"];
                     ?>
 
                         <div class="row platillo__elemento">
-                            <div class="col-4 text-center">
-                                <img src="img/platillos/<?php echo $platillo_en_turno['imagen']; ?>" alt="" class="platillo__elemento__imagen">
+                            <div class="col-12 col-md-4 text-center">
+                                <img src="img/platillos/<?php echo $platillo_en_turno['imagen']; ?>" alt="" class="platillo__elemento__imagen mb-3">
                             </div>
                             
-                            <div class="col-8">
-                                <h3 class="platillo__elemento__titulo"><?php echo $platillo_en_turno['titulo']; ?></h3>
+                            <div class="col-12 col-md-8">
+                                <h4 class="platillo__elemento__titulo p-3 text-center text-md-left"><?php echo $platillo_en_turno['titulo']; ?></h4>
                                 
-                                <div class="platillo__elemento__descripcion">
+                                <div class="platillo__elemento__descripcion p-3">
                                     
                                     <?php foreach( $platillo_en_turno['lista'] as $itemLista ) { ?>
                                         
@@ -128,20 +128,20 @@ $incluye = $archivo_json["incluye"];
         <div class="container">
                 <div class="row">
                     <div class="col-12 p-3">
-                        <h4 class="platillo__titulo">
+                        <h3 class="platillo__titulo text-center text-md-left p-3">
                             Este menú incluye
-                        </h4>
+                        </h3>
                     </div>
                 </div>
 
 
-                <div class="row">
+                <div class="row mb-5">
                     <?php
                         foreach( $menu['incluye'] as $incluye_item ) {
                             $incluye_actual = $incluye[$incluye_item];
                     ?>
                         
-                        <div class="col-3 p-3 p-md-4">
+                        <div class="col-12 col-md-4 col-lg-3 p-3 p-md-4 mb-5">
                             <div class="incluye__item">
                                 <h4 class="text-center incluye__item__titulo"><?php echo $incluye_actual['titulo']; ?></h4>
 
@@ -149,7 +149,7 @@ $incluye = $archivo_json["incluye"];
                                     <img src="img/iconos/<?php echo $incluye_actual['icono']; ?>" alt="">
                                 </div>
 
-                                <p class="incluye__item__texto">
+                                <p class="text-center">
                                     <?php echo $incluye_actual['texto']; ?>
                                 </p>
                             </div>

@@ -13,7 +13,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top mi-navbar">
 		<a class="navbar-brand" href="#" class="d-block bg-primary">
-			<img src="./img/logotipo.png" alt="" id="logotipo-menu" class="logotipo-menu">
+			<img src="./img/logotipo.png" alt="" id="logotipo-menu" class="mi-navbar__logotipo" class="heigth: 260px!important; position: absolute;">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

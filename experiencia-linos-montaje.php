@@ -4,17 +4,14 @@
 
 
 
-<div class="container-fluid seccion">
-    
-
-
-    <div class="container margen">
+<div class="container-fluid content push">
+    <div class="container">
     
                 <div class="row">
                     <div class="col-12 p-3 ">
-                        <h4>
+                        <h3>
                             Experiencia Linos - Montaje
-                        </h4>
+                        </h3>
                     </div>
                 </div>
 

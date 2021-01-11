@@ -2,7 +2,7 @@
 
 <div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/shushi-portada.png')">
     <div class="portada__info pt-5">
-        <h1 class="mt-5">LINOS FOOD EXPERENCE</h1>
+        <h1 class="mt-5">LINOS FOOD EXPERIENCE</h1>
         <p>
             La experiencia gastronómica más satisfactoria que tus sentidos pueden vivir.
         </p>
@@ -17,7 +17,7 @@
 
 
 
-<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/secciones/inicio/inicio-imagen-2-linos-banquetes-japoneses.jpg')">
+<div id="inicio" class="container-fluid d-flex align-items-center portada" style="--background: url('./img/secciones/inicio/inicio-imagen-2-linos-banquetes-japoneses.jpg')">
     <div class="portada__info pt-5">
         <h1 class="mt-5">LINOS BANQUETES JAPONESES</h1>
         <!-- <p>
@@ -34,7 +34,7 @@
 
 
 
-<div id="inicio" class="container-fluid chef">
+<div class="container-fluid chef">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 p-5 chef__info mt-5 mb-5 text-center text-md-left">
@@ -61,7 +61,7 @@
                         <img src="./img/sushi-plato.png" alt="" class="w-75">
                     </div>
                     <div class="col-12 col-md-6 order-1 order-md-2 pt-5 pb-5 text-center">
-                        <b>
+                        <b class="carousel-cell__titulo">
                             La Experiencia
                         </b>
 
@@ -80,7 +80,7 @@
                         <img src="./img/sushi-plato.png" alt="" class="w-75">
                     </div>
                     <div class="col-12 col-md-6 order-1 order-md-2 pt-5 pb-5 text-center">
-                        <b>
+                        <b class="carousel-cell__titulo">
                             El Sabor
                         </b>
                         
@@ -99,7 +99,7 @@
                         <img src="./img/sushi-plato.png" alt="" class="w-75">
                     </div>
                     <div class="col-12 col-md-6 order-1 order-md-2 pt-5 pb-5 text-center">
-                        <b>
+                        <b class="carousel-cell__titulo">
                             La Preparación
                         </b>
                         

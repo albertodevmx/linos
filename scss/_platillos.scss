@@ -3,22 +3,22 @@
 }
 
 .platillos {
-    padding-top: 150px;
-
+    
     &__item {
         position: relative;
         height: 100%;
         transition: 0.6s;
+        padding: 5px;
+        cursor: pointer;
 
         &__body {
-            padding-bottom: 185px;
+            padding-bottom: 265px;
 
             &__titulo {
                 border: #fff 1px solid;
                 font-size: 16px;
                 line-height: 1em;
-
-                
+                margin-top: 0px;
             }
             
             &__descripcion {
@@ -134,7 +134,7 @@
         color: #fff;
 
         &__titulo {
-            font-size: 18px;
+            // font-size: 18px;
             min-height: 40px;
         }
 
@@ -145,12 +145,6 @@
             & img {
                 width: 60%;;
             }
-        }
-
-        &__texto {
-            font-size: 17px;
-            line-height: 1em;
-            text-align: center;
         }
     }
 }

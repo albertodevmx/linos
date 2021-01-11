@@ -1,7 +1,90 @@
 .footer {
-	background: #f1f2f6;
+	width   : 100%;
+	position: relative;
+
+	&__content {
+		z-index: 1;
+	}
+	// rihsy9-cydtiv-kyNkap
+
+	&::after {
+		content        : "";
+		position       : absolute;
+		top            : 0;
+		bottom         : 0;
+		left           : 0;
+		right          : 0;
+		background: url('./../img/textura2.jpg') top center;
+		background-position: top center;
+		background-size: cover;
+		opacity        : 0.2;
+		z-index: 0!important;
+	}
+
+	
+	
+	&__logo {
+		margin-bottom: 15px;
+		
+		& img {
+			width: 70%;
+		}
+
+	}
+
+	&__redes {
+		
+		& a {
+			font-size: 44px;
+			padding: 5px;
+
+			&:hover {
+				text-decoration: none;
+				color: #F22;
+			}
+		}
+
+	}
 
 	&__menu {
 		border-bottom: #DEDEDE 1px solid;
+	}
+
+	& ul {
+		padding: 0px;
+		margin: 0px;
+		margin-bottom: 15px;
+
+		& li {
+			list-style: none;
+		}
+	}
+
+
+	&__content {
+		border-bottom: #CCC 1px solid;
+	}
+
+	&__enlace {
+		&:hover {
+			text-decoration: none;
+			color: #666;
+
+			& i {
+				color: #f00;
+			}
+		}
+	}
+
+
+	@media(min-width: 760px){
+		&__logo {
+			margin-bottom: 15px;
+			
+			& img {
+				width: 50%;
+			}
+	
+		}
 	}
 }

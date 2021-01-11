@@ -1,10 +1,11 @@
 .mi-navbar {
+	background: #000!important;
 
-	@media(max-width: 760px) {
-		background: #000;
+	&__logotipo {
+		height: 46px;
 	}
-}
 
-.logotipo-menu {
-	height: 30px;
+	@media(min-width: 760px) {
+		background:rgba($color: #000000, $alpha: 0)!important;
+	}
 }

@@ -7,6 +7,12 @@
     width     : 100%;
     padding   : 30px;
     color: #fff;
+
+    &__titulo {
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 15px;
+    }
 }
 
 

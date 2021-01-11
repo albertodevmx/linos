@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
 // GENERALES
 @import "./custom-bootstrap";
 @import "../node_modules/flickity/dist/flickity.min.css";
 @import "./estilos-generales";
 // MODULOS
 @import "./slider";
-@import "./slider";
+@import "./header";
+@import "./footer";
 // PAGINAS
 @import "./index";
 @import "./platillos";
@@ -89,15 +90,4 @@
 		width: 100%;
 		left : 0;
 	}
-}
-
-
-
-
-
-
-
-.seccion {
-	background: url(./../img/fondo-slider.jpg) top center fixed;
-	background-size: cover;
 }

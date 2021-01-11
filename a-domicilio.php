@@ -1,13 +1,15 @@
 <?php include("header.php"); ?>
 
 
-<div class="container-fluid seccion">
+<div class="container-fluid content push">
     <div class="container">
 
 
 
-    <div class="row">
-            <h1>Obentos</h1>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center text-md-left p-3 mb-5">Obentos</h3>
+            </div>
         </div>
 
 
@@ -23,15 +25,15 @@
 
             <?php foreach ( $json_a['menus']['obentos']['platillos'] AS $producto ) { ?>
  
-                    <div class="col-6 col-md-4 col-lg-3 p-3 pl-md-5 pr-md-5">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-5 p-md-3 mb-5">
                         
-                        <div class="platillos__item">
+                        <div onclick="location.href='platillo-detalle-obentos.php?id=<?php echo $producto['id']; ?>'" class="platillos__item">
                             <div class="platillos__item__body">
                                 <h4 class="platillos__item__body__titulo text-center p-2">
                                 <?php echo $producto['tituloCorto']; ?>
                                 </h4>
 
-                                <h5>
+                                <h5 class="text-center">
                                     <?php echo $producto['subtitulo']; ?>
                                 </h5>
         
@@ -70,14 +72,15 @@
 
 
 
-
-
-        <div class="row">
-            <h1>Menus para Entrega a Domicilio</h1>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="text-center text-md-left p-3 mb-5">Menus para Entrega a Domicilio</h3>
+            </div>
         </div>
 
+        
 
-        <div class="row d-flex platillos">
+        <div class="row mb-5 d-flex platillos">
 
             
             <?php
@@ -89,15 +92,15 @@
 
             <?php foreach ( $json_a['menus']['a-domicilio']['platillos'] AS $producto ) { ?>
  
-                    <div class="col-6 col-md-4 col-lg-3 p-3 pl-md-5 pr-md-5">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-5 p-md-3 mb-5">
                         
-                        <div class="platillos__item">
+                        <div onclick="location.href='platillo-detalle-domicilio.php?id=<?php echo $producto['id']; ?>'" class="platillos__item">
                             <div class="platillos__item__body">
                                 <h4 class="platillos__item__body__titulo text-center p-2">
                                 <?php echo $producto['tituloCorto']; ?>
                                 </h4>
 
-                                <h5>
+                                <h5 class="text-center">
                                     <?php echo $producto['subtitulo']; ?>
                                 </h5>
         

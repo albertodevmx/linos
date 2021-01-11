@@ -13,18 +13,18 @@ $incluye = $archivo_json["incluye"];
 ?>
 
 
-<div class="container-fluid seccion">
-    <div class="container margen">
+<div class="container-fluid content push">
+    <div class="container">
         
         <div class="row">
 
-            <div class="col-9 p-3">
+            <div class="col-12 col-md-9 p-3">
                 <div class="platillo pt-3 pb-3">
                     <div class="row">
                         <div class="col-12 p-3">
-                            <h4 class="platillo__titulo">
+                            <h3 class="platillo__titulo text-center text-md-left p-3">
                                 <?php echo $menu['tituloLargo'] ?>
-                            </h4>
+                            </h3>
                         </div>
                     </div>
 
@@ -34,12 +34,12 @@ $incluye = $archivo_json["incluye"];
                     ?>
 
                         <div class="row platillo__elemento">
-                            <div class="col-4 text-center">
+                            <div class="col-12 col-md-4 text-center">
                                 <img src="img/platillos/<?php echo $platillo_en_turno['imagen']; ?>" alt="" class="platillo__elemento__imagen">
                             </div>
                             
-                            <div class="col-8">
-                                <h3 class="platillo__elemento__titulo"><?php echo $platillo_en_turno['titulo']; ?></h3>
+                            <div class="col-12 col-md-8">
+                                <h4 class="platillo__elemento__titulo p-3 text-center text-md-left"><?php echo $platillo_en_turno['titulo']; ?></h3>
                                 
                                 <div class="platillo__elemento__descripcion">
                                     
@@ -129,11 +129,11 @@ $incluye = $archivo_json["incluye"];
                 <div class="row">
                     <div class="col-12 p-3">
 
-                        <p>
+                        <p class="mb-5 text-center">
                             Este menú es para entrega a domicilio, se entrega en artículos desechables especiales para calentar en microondas y estará listo para servirse.
                         </p>
                         
-                        <h4 class="platillo__titulo">
+                        <h4 class="text-center">
                             Entrega Especial a tu Evento o Domicilio
                         </h4>
                     </div>
@@ -142,14 +142,14 @@ $incluye = $archivo_json["incluye"];
 
                 <div class="row">
                    
-                        <div class="col-6 p-3 p-md-4">
+                        <div class="col-xs-12 col-sm-6 col-md-5 p-5 text-center">
                             <div class="incluye__item">
                                 <h4 class="text-center incluye__item__titulo">
                                     Envío a tu Evento o Domicilio
                                 </h4>
 
                                 <div class="incluye__item__imagen">
-                                    <img src="img/iconos/iconos-a-domicilio.png" alt="">
+                                    <img src="img/iconos/iconos-a-domicilio.png" alt="" class="w-60 mb-3">
                                 </div>
 
                                 <p class="incluye__item__texto">
@@ -157,21 +157,25 @@ $incluye = $archivo_json["incluye"];
                                 </p>
                             </div>
                         </div>
+                        
+
+                        <div class="col-xs-12 col-sm-6 col-md-2 p-3 text-center">
+                            &nbsp;
+                        </div>
 
 
-
-                        <div class="col-6 p-3 p-md-4">
+                        <div class="col-xs-12 col-sm-6 col-md-5 p-5 text-center">
                             <div class="incluye__item">
                                 <h4 class="text-center incluye__item__titulo">
                                     Desechables para Microondas
                                 </h4>
 
                                 <div class="incluye__item__imagen">
-                                    <img src="img/iconos/iconos-desechables-micro.png" alt="">
+                                    <img src="img/iconos/iconos-desechables-micro.png" alt="" class="w-60 mb-3">
                                 </div>
 
                                 <p class="incluye__item__texto">
-                                    se entrega en artículos desechables especiales para calentar en microondas y estará listo para servirse.  
+                                    Se entrega en artículos desechables especiales para calentar en microondas y estará listo para servirse.  
                                 </p>
                             </div>
                         </div>

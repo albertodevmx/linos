@@ -13,18 +13,18 @@ $incluye = $archivo_json["incluye"];
 ?>
 
 
-<div class="container-fluid seccion">
-    <div class="container margen">
+<div class="container-fluid content push">
+    <div class="container">
         
         <div class="row">
 
-            <div class="col-9 p-3">
+            <div class="col-12 col-md-9 p-3">
                 <div class="platillo pt-3 pb-3">
                     <div class="row">
                         <div class="col-12 p-3">
-                            <h4 class="platillo__titulo">
+                            <h3 class="text-center text-md-left p-3">
                                 <?php echo $menu['tituloLargo'] ?>
-                            </h4>
+                            </h3>
                         </div>
                     </div>
 
@@ -34,14 +34,14 @@ $incluye = $archivo_json["incluye"];
                     ?>
 
                         <div class="row platillo__elemento">
-                            <div class="col-4 text-center">
+                            <div class="col-12 col-md-4 text-center">
                                 <img src="img/platillos/<?php echo $platillo_en_turno['imagen']; ?>" alt="" class="platillo__elemento__imagen">
                             </div>
                             
-                            <div class="col-8">
-                                <h3 class="platillo__elemento__titulo"><?php echo $platillo_en_turno['titulo']; ?></h3>
+                            <div class="col-12 col-md-8">
+                                <h4 class="platillo__elemento__titulo text-center text-md-left"><?php echo $platillo_en_turno['titulo']; ?></h4>
                                 
-                                <div class="platillo__elemento__descripcion">
+                                <div class="platillo__elemento__descripcion p-3">
                                     
                                     <?php foreach( $platillo_en_turno['lista'] as $itemLista ) { ?>
                                         
@@ -133,18 +133,18 @@ $incluye = $archivo_json["incluye"];
                             Este menú es para entrega a domicilio, se entrega en artículos desechables especiales para calentar en microondas y estará listo para servirse.
                         </p>
                         
-                        <h4 class="platillo__titulo">
+                        <h4 class="platillo__titulo text-center">
                             Entrega Especial a tu Evento o Domicilio
                         </h4>
                     </div>
                 </div>
 
 
-                <div class="row">
+                <div class="row mb-5">
                    
-                        <div class="col-4 p-3 p-md-4">
+                        <div class="col-12 col-md-4 p-3 p-md-5 mb-3">
                             <div class="incluye__item">
-                                <h4 class="text-center incluye__item__titulo">
+                                <h4 class="text-center">
                                     Envío a tu Evento o Domicilio
                                 </h4>
 
@@ -152,7 +152,7 @@ $incluye = $archivo_json["incluye"];
                                     <img src="img/iconos/iconos-a-domicilio.png" alt="">
                                 </div>
 
-                                <p class="incluye__item__texto">
+                                <p class="incluye__item__texto text-center">
                                     Este menú es para entrega a domicilio. 
                                 </p>
                             </div>
@@ -160,9 +160,9 @@ $incluye = $archivo_json["incluye"];
 
 
 
-                        <div class="col-4 p-3 p-md-4">
+                        <div class="col-12 col-md-4 p-3 p-md-5 mb-3">
                             <div class="incluye__item">
-                                <h4 class="text-center incluye__item__titulo">
+                                <h4 class="text-center">
                                     Desechables para Microondas
                                 </h4>
 
@@ -170,7 +170,7 @@ $incluye = $archivo_json["incluye"];
                                     <img src="img/iconos/iconos-desechables-micro.png" alt="">
                                 </div>
 
-                                <p class="incluye__item__texto">
+                                <p class="incluye__item__texto text-center">
                                     Se entrega en artículos desechables especiales para calentar en microondas y estará listo para servirse.  
                                 </p>
                             </div>
@@ -179,9 +179,9 @@ $incluye = $archivo_json["incluye"];
 
 
 
-                        <div class="col-4 p-3 p-md-4">
+                        <div class="col-12 col-md-4 p-3 p-md-5 mb-3">
                             <div class="incluye__item">
-                                <h4 class="text-center incluye__item__titulo">
+                                <h4 class="text-center">
                                     Vajilla Japonesa (Opcional)
                                 </h4>
 
@@ -191,7 +191,7 @@ $incluye = $archivo_json["incluye"];
                                     <img src="img/iconos/iconos-vajilla-japonesa.png" alt="">
                                 </div>
 
-                                <p class="incluye__item__texto">
+                                <p class="incluye__item__texto text-center">
                                     Este menú se puede contratar artículos especiales para servirlo como: platos, salseras, tablas para sushi, etc.
                                 </p>
                             </div>
