@@ -46,11 +46,11 @@
 				<div class="col-12 col-md-4 pl-1 pr-1 p-3 p-md-5">
 					<h5 class="text-center text-md-left">Contacto</h5>
 					<p class="text-center text-md-left">
-						<a class="footer__enlace" href="tel:5558223521"><i class="fas fa-phone-square-alt"></i> 5822 3521</a><br>
-						<a class="footer__enlace" href="tel:5558249437"><i class="fas fa-phone-square-alt"></i> 5824 9437</a><br>
-						<a class="footer__enlace" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp-square"></i> 55 4084 3940</a><br>
+						<a class="footer__enlace" href="tel:5558223521"><i class="fas fa-phone"></i> 5822 3521</a><br>
+						<a class="footer__enlace" href="tel:5558249437"><i class="fas fa-phone"></i> 5824 9437</a><br>
+						<a class="footer__enlace" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp"></i> 55 4084 3940</a><br>
 						
-						<a class="footer__enlace" href="mailto:info@linosbanquetesjaponeses.com.mx"><i class="fas fa-envelope-square"></i> info@linosbanquetesjaponeses.com.mx</a>
+						<a class="footer__enlace" href="mailto:info@linosbanquetesjaponeses.com.mx"><i class="fas fa-envelope"></i> info@linosbanquetesjaponeses.com.mx</a>
 					</p>
                 </div>
             </div>

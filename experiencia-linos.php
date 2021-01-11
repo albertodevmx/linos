@@ -9,7 +9,7 @@
     
                 <div class="row">
                     <div class="col-12 p-3 ">
-                        <h3 class="text-center text-md-left">
+                        <h3 class="text-center p-3 text-md-left">
                             Experiencia Linos
                         </h3>
                     </div>
@@ -118,29 +118,23 @@
 
 
 
-    <div class="container mt-3">
-        <div class="row">
-            <div class="col-12">
-                
-            
-                <div class="alert alert-danger bg-mi-rojo mb-5">
-                    <div class="card-body row text-center text-md-right">
-                        <div class="col-12 col-md-9 linea-derecha-pc">
-                            <h4 class="text-center text-md-right mb-5">Solicita tu servicio</h4>
-                            <p>
-                            Con gusto te atenderemos<br>
-                            Contáctanos y vive una experiencia gourmet inigualable.
-                            </p>
-                        </div>
+    <div class="container-fluid mt-3 contacto-fondo">
+        <div class="container">
+            <div class="row p-5">
+                    <div class="col-12 p-2 text-center">
+                        <p>
+                            En Linos nos adaptamos a las  necesidades de tu evento.
+                        </p>
 
-                        <div class="col-12 col-md-3 pl-md-5">
-                            <a class="btn btn-danger d-block" href="tel:5558223521"><i class="fas fa-phone-square-alt"></i> 5822 3521</a><br>
-                            <a class="btn btn-danger d-block" href="tel:5558249437"><i class="fas fa-phone-square-alt"></i> 5824 9437</a><br>
-                            <a class="btn btn-danger d-block" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp-square"></i> 55 4084 3940</a><br>
-                        </div>
+                        <h4 class="text-center mb-5">Solicita tu servicio aquí</h4>
                     </div>
-                </div>
 
+                    
+                    <div class="col-12 text-center p-2">
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 d-md-inline-block" href="tel:5558223521"><i class="fas fa-phone"></i> 5822 3521</a>
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 d-md-inline-block" href="tel:5558249437"><i class="fas fa-phone"></i> 5824 9437</a>
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 d-md-inline-block" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp"></i> 55 4084 3940</a>
+                    </div>
             </div>
         </div>
     </div>

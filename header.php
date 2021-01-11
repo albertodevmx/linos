@@ -38,17 +38,21 @@
 					</div>
 				</li>
 
-				<li class="nav-item dropdown">
+				<li class="nav-item">
+					<a class="nav-link" href="platillos-japoneses.php">Comida japonesa</a>
+				</li>
+
+				<!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Comida japonesa
+						
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="comida-japonesa.php">Comida japonesa</a>
 						<a class="dropdown-item" href="menus-japoneses.php">Menús</a>
-						<a class="dropdown-item" href="platillos-japoneses.php">Platillos</a>
+						<a class="dropdown-item" href="">Platillos</a>
 					</div>
-				</li>
+				</li> -->
 
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

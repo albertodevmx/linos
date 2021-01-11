@@ -10098,6 +10098,12 @@ hr {
   }
 }
 
+@media (min-width: 760px) {
+  .menu-bloque-rojo {
+    min-height: 310px;
+  }
+}
+
 .slider {
   background: url("./../img/fondo-slider.jpg");
 }
@@ -10293,7 +10299,6 @@ hr {
   background: #000;
   position: relative;
   width: 100%;
-  height: 300px;
   z-index: 10;
 }
 .contacto-fondo::after {
