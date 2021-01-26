@@ -1,10 +1,11 @@
 <?php include("header.php"); ?>
 
 
-<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/banners/banquetes-banner-1-principal.jpg')">
+<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/banners/banquetes-banner-1-principal.jpg'); --opacity: 1;">
     <div class="portada__info pt-5">
-        <h1 class="mt-5">LINOS FOOD EXPERENCE</h1>
-        <p>
+        <h1 class="mt-5 fondo-negro-transparente d-inline-block p-1 pl-2 pr-2">LINOS FOOD EXPERIENCE</h1>
+        <div></div>
+        <p class="fondo-negro-transparente d-inline-block p-1">
             La experiencia gastronómica más satisfactoria que tus sentidos pueden vivir.
         </p>
     </div>

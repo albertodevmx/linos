@@ -118,6 +118,54 @@
 
 
 
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3 p-md-5">
+                <h2 class="subrayado">Posibilidades en 3D</h2>
+            </div>
+		</div>
+		
+		<div class="row">
+			<div id="filters" class="col-12 text-center p-3 button-group">
+				<a id="automotriz" data-id-button="automotriz" class="btn btn-primary button mb-1" data-filter=".automotriz">Galería 1</a>
+				<a id="aeroespacial" data-id-button="aeroespacial" class="btn btn-primary button mb-1" data-filter=".aeroespacial">Galería 3</a>>
+				<a id="bienes" data-id-button="bienes" class="btn btn-primary button mb-1" data-filter=".bienes">Galería 5</a>
+				<a id="industrial" data-id-button="industrial" class="btn btn-primary button mb-1" data-filter=".industrial">Galería 6</a>
+				<a id="todas" data-id-button="todas" class="btn btn-primary button mb-1 is-checked" data-filter="*">Todas</a>
+			</div>
+		</div>
+
+
+        <div class="row galeria grid">
+			<!-- Automotriz -->
+			<div class="col-6 col-md-3 mb-4 element-item automotriz" data-category="automotriz"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-52.jpg" data-caption="Volante"><img src="./assets/img/fotos-piezas-3d/th/foto-52.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<div class="col-6 col-md-3 mb-4 element-item automotriz" data-category="automotriz"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-05.jpg" data-caption="Espejo lateral"><img src="./assets/img/fotos-piezas-3d/th/foto-05.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<div class="col-6 col-md-3 mb-4 element-item automotriz" data-category="automotriz"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-30.jpg" data-caption="Manifold"><img src="./assets/img/fotos-piezas-3d/th/foto-30.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<!-- Aeroespacial -->
+			<div class="col-6 col-md-3 mb-4 element-item aeroespacial" data-category="aeroespacial"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-50.jpg" data-caption="Rudder Trim"><img src="./assets/img/fotos-piezas-3d/th/foto-50.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<!-- Dispositivos Médicos -->
+            <div class="col-6 col-md-3 mb-4 element-item dispositivos" data-category="dispositivos"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-49.jpg" data-caption="Prótesis"><img src="./assets/img/fotos-piezas-3d/th/foto-49.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<div class="col-6 col-md-3 mb-4 element-item dispositivos" data-category="dispositivos"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-48.jpg" data-caption="Moldes dentales protésicos"><img src="./assets/img/fotos-piezas-3d/th/foto-48.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<!-- Bienes de consumo -->
+            <div class="col-6 col-md-3 mb-4 element-item bienes" data-category="bienes"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-02.jpg" data-caption="Lámpara"><img src="./assets/img/fotos-piezas-3d/th/foto-02.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<div class="col-6 col-md-3 mb-4 element-item bienes" data-category="bienes"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-12.jpg" data-caption="Lentes"><img src="./assets/img/fotos-piezas-3d/th/foto-12.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<div class="col-6 col-md-3 mb-4 element-item bienes" data-category="bienes"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-06.jpg" data-caption="Casco"><img src="./assets/img/fotos-piezas-3d/th/foto-06.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+			<!-- Industrial -->
+			<div class="col-6 col-md-3 mb-4 element-item industrial" data-category="industrial"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-32.jpg" data-caption="Gripper"><img src="./assets/img/fotos-piezas-3d/th/foto-32.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+            <div class="col-6 col-md-3 mb-4 element-item industrial" data-category="industrial"><a data-fancybox="gallery" href="./assets/img/fotos-piezas-3d/foto-33.jpg" data-caption="Gripper"><img src="./assets/img/fotos-piezas-3d/th/foto-33.jpg" class="w-100 img-thumbnail shadow-sm"></a></div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
     <div class="container-fluid mt-3 contacto-fondo">
         <div class="container">
             <div class="row p-5">

@@ -12,7 +12,7 @@
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top mi-navbar">
-		<a class="navbar-brand" href="#" class="d-block bg-primary">
+		<a class="navbar-brand" href="index.php">
 			<img src="./img/logotipo.png" alt="" id="logotipo-menu" class="mi-navbar__logotipo" class="heigth: 260px!important; position: absolute;">
 		</a>
 
@@ -69,10 +69,11 @@
 				</li>
 
 
-
+				<!--
 				<li class="nav-item">
 					<a class="nav-link" href="empresarial.php">Empresarial</a>
 				</li>
+				-->
 
 				<li class="nav-item linea-roja">
 					<a class="nav-link" href="pedidos.php">Pedidos</a>

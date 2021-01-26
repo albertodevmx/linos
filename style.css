@@ -9901,13 +9901,6 @@ h3 {
 body {
   background: #000 url(./../img/fondo-slider.jpg) top center fixed;
   background-size: cover;
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9994,7 +9987,7 @@ p, ul, li {
   background-image: var(--background);
   background-position: top center;
   background-size: cover;
-  opacity: 0.3;
+  opacity: var(--opacity);
   z-index: 0;
 }
 .portada h1 {
@@ -10010,11 +10003,6 @@ p, ul, li {
   display: inline-block;
   position: relative;
   text-decoration: none;
-}
-
-html {
-  overflow: hidden;
-  height: 100%;
 }
 
 #page {
@@ -10104,6 +10092,10 @@ hr {
   }
 }
 
+.fondo-negro-transparente {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 .slider {
   background: url("./../img/fondo-slider.jpg");
 }
@@ -10132,27 +10124,23 @@ hr {
 }
 
 .mi-navbar {
-  background: #000 !important;
+  position: fixed !important;
+  background: rgba(0, 0, 0, 0.7);
 }
 .mi-navbar__logotipo {
   height: 46px;
-}
-@media (min-width: 760px) {
-  .mi-navbar {
-    background: rgba(0, 0, 0, 0) !important;
-  }
 }
 
 .footer {
   width: 100%;
   position: relative;
-}
-.footer__content {
+  background: #DDD;
   z-index: 1;
 }
 .footer::after {
   content: "";
   position: absolute;
+  z-index: -1;
   top: 0;
   bottom: 0;
   left: 0;
@@ -10161,7 +10149,6 @@ hr {
   background-position: top center;
   background-size: cover;
   opacity: 0.2;
-  z-index: 0 !important;
 }
 .footer__logo {
   margin-bottom: 15px;

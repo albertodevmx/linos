@@ -1,13 +1,6 @@
 body {
 	background: #000 url(./../img/fondo-slider.jpg) top center fixed;
 	background-size: cover;
-	margin: 0;
-	padding: 0;
-	perspective: 1px;
-	transform-style: preserve-3d;
-	height: 100%;
-	overflow-x: hidden;
-	overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -110,7 +103,7 @@ p, ul, li {
 		background-image: var(--background);
 		background-position: top center;
 		background-size: cover;
-		opacity        : 0.3;
+		opacity        : var(--opacity);
 		z-index        : 0;
 	}
 
@@ -129,16 +122,6 @@ p, ul, li {
 		position       : relative;
 		text-decoration: none;
 	}
-}
-
-
-
-
-
-
-html {
-	overflow: hidden;
-	height  : 100%;
 }
 
 
@@ -221,7 +204,14 @@ hr {
 }
 
 .menu-bloque-rojo {
+
 	@media(min-width:760px){
 		min-height: 310px;
 	}
+
+}
+
+
+.fondo-negro-transparente {
+	background: rgba($color: #000000, $alpha: 0.6)
 }

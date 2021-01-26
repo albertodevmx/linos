@@ -2,6 +2,7 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "flickity": "^2.2.1",
+    "isotope-layout": "^3.0.6",
     "jquery-parallax.js": "^1.5.0",
     "swiper": "^6.4.1"
   }

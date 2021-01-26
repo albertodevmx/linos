@@ -1,4 +1,4 @@
-    <footer class="footer container-fluid bg-light">
+    <footer class="footer container-fluid">
         <div class="container-fluid footer__content">
             <div class="row">
                 <div class="col-12 col-md-4 p-3 pt-5 p-md-5 text-center">
@@ -91,6 +91,11 @@
 	<script type="text/javascript" src="./node_modules/swiper/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="./node_modules/flickity/dist/flickity.pkgd.min.js"></script>
 	<!-- ===========================	Main Script 	=========================== -->
+
+	<!-- Galería Ordenamiento -->
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="./node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 
