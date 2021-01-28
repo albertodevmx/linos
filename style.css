@@ -6,6 +6,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "../node_modules/swiper/swiper-bundle.css";
 @import "../node_modules/flickity/dist/flickity.min.css";
 :root {
   --blue: #007bff;
@@ -10096,6 +10097,10 @@ hr {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.prueba {
+  color: #f00;
+}
+
 .slider {
   background: url("./../img/fondo-slider.jpg");
 }
@@ -10103,7 +10108,7 @@ hr {
 .carousel-cell {
   display: block;
   width: 100%;
-  padding: 30px;
+  padding: 0px;
   color: #fff;
 }
 .carousel-cell__titulo {
@@ -10129,6 +10134,23 @@ hr {
 }
 .mi-navbar__logotipo {
   height: 46px;
+}
+
+.active {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+.dropdown-menu {
+  background: #000;
+}
+.dropdown-menu .active {
+  background: rgba(255, 0, 0, 0.3);
+}
+.dropdown-menu a {
+  color: #CCC;
+}
+.dropdown-menu a:active {
+  background: rgba(255, 0, 0, 0.3);
 }
 
 .footer {
@@ -10216,7 +10238,7 @@ hr {
   right: 0;
   background: url("./../img/chef.png") top center;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 1;
   z-index: 0;
 }
 @media (min-width: 761px) {
@@ -10227,7 +10249,7 @@ hr {
 }
 
 .form {
-  height: 500px;
+  height: 650px;
   position: relative;
 }
 @media (min-width: 761px) {
@@ -10296,7 +10318,7 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("./../img/banners/contacto-fondo.jpg") bottom center no-repeat;
+  background: url("./../img/banners/contacto-fondo.jpg") 20px center no-repeat;
   background-size: cover;
   opacity: 0.3;
 }

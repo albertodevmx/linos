@@ -7957,7 +7957,7 @@ hr {
 .carousel-cell {
   display: block;
   width: 100%;
-  padding: 30px;
+  padding: 0px;
   color: #fff; }
   .carousel-cell__titulo {
     text-transform: uppercase;
@@ -8052,7 +8052,7 @@ hr {
         background-size: cover; } }
 
 .form {
-  height: 500px;
+  height: 650px;
   position: relative; }
   @media (min-width: 761px) {
     .form {
@@ -8107,7 +8107,7 @@ hr {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("./../img/banners/contacto-fondo.jpg") bottom center no-repeat;
+    background: url("./../img/banners/contacto-fondo.jpg") 20px center no-repeat;
     background-size: cover;
     opacity: 0.3; }
 

@@ -20,7 +20,7 @@
 		right          : 0;
 		background     : url('./../img/chef.png') top center;
 		background-size: cover;
-		opacity        : 0.4;
+		opacity        : 1;
 		z-index        : 0;
 
 		@media (min-width: 761px) {
@@ -33,7 +33,7 @@
 
 
 .form {
-	height  : 500px;
+	height  : 650px;
 	position: relative;
 
 	@media(min-width:761px) {
@@ -111,7 +111,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: url('./../img/banners/contacto-fondo.jpg') bottom center no-repeat;
+		background: url('./../img/banners/contacto-fondo.jpg') 20px center no-repeat;
 		background-size: cover;
 		opacity: 0.3;
 	}

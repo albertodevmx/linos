@@ -10,7 +10,10 @@
         </p>
 
         <p class="p-5">
-            <a href="#inicio" class="desplazar boton linea-roja">
+            <!-- <a href="#inicio" class="desplazar boton linea-roja">
+                Empezar experiencia
+            </a> -->
+            <a href="#inicio" class="btn btn-danger shadow">
                 Empezar experiencia
             </a>
         </p>
@@ -20,9 +23,9 @@
 
 
 
-<div id="inicio" class="container-fluid d-flex align-items-center portada" style="--background: url('./img/secciones/inicio/inicio-imagen-2-linos-banquetes-japoneses.jpg')">
+<div id="inicio" class="container-fluid d-flex align-items-center portada" style="--background: url('./img/secciones/inicio/inicio-imagen-2-linos-banquetes-japoneses.jpg');  --opacity: 0.8;">
     <div class="portada__info pt-5">
-        <h1 class="mt-5">LINOS BANQUETES JAPONESES</h1>
+        <h1 class="mt-5 fondo-negro p-2 d-inline-block">LINOS BANQUETES JAPONESES</h1>
         <!-- <p>
             La experiencia gastronómica más satisfactoria que tus sentidos pueden vivir.
         </p>
@@ -41,8 +44,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 p-5 chef__info mt-5 mb-5 text-center text-md-left">
-                <h2 class="fondo-negro">Historia</h2>
-                <p class="fondo-negro">Fundada hace 30 años por el chef Javier Lino Rojas con especialidad en comida japonesa.</p>
+                <h1 class="fondo-negro text-light p-3">Historia</h1>
+                <p class="fondo-negro text-light p-3">Fundada hace 30 años por el chef Javier Lino Rojas con especialidad en comida japonesa.</p>
             </div>
         </div>
     </div>
@@ -61,10 +64,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-2 order-md-1 text-center">
-                        <img src="./img/sushi-plato.png" alt="" class="w-75">
+                        <img src="./img/slider-1.png" alt="" class="w-100">
                     </div>
                     <div class="col-12 col-md-6 order-1 order-md-2 pt-5 pb-5 text-center">
-                        <b class="carousel-cell__titulo">
+                        <b class="carousel-cell__titulo mt-5">
                             La Experiencia
                         </b>
 
@@ -80,10 +83,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-2 order-md-1 text-center">
-                        <img src="./img/sushi-plato.png" alt="" class="w-75">
+                        <img src="./img/slider-2.png" alt="" class="w-100">
                     </div>
                     <div class="col-12 col-md-6 order-1 order-md-2 pt-5 pb-5 text-center">
-                        <b class="carousel-cell__titulo">
+                        <b class="carousel-cell__titulo mt-5">
                             El Sabor
                         </b>
                         
@@ -99,10 +102,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-2 order-md-1 text-center">
-                        <img src="./img/sushi-plato.png" alt="" class="w-75">
+                        <img src="./img/slider-3.png" alt="" class="w-100">
                     </div>
                     <div class="col-12 col-md-6 order-1 order-md-2 pt-5 pb-5 text-center">
-                        <b class="carousel-cell__titulo">
+                        <b class="carousel-cell__titulo mt-5">
                             La Preparación
                         </b>
                         
@@ -123,7 +126,7 @@
 <div class="container-fluid form">
     <div class="container form__contenidos">
         <div class="row">
-            <div class="col-12 col-md-4 p-5 chef__info mt-5 mb-5 text-center text-md-left">
+            <div class="col-12 col-md-4 p-md-5 chef__info mt-5 mb-5 text-center text-md-left">
                 
                 <div class="p-3 form__bloque">
                     <p class="text-center text-md-left mb-3 mb-md-5">
@@ -146,6 +149,22 @@
                             <button type="submit" class="btn btn-danger">Envíar</button>
                         </div>
                     </form>
+                </div>
+
+
+                <div class="col-12 text-center content p-3 pt-5">
+                        <p class="fondo-negro">
+                            En Linos nos adaptamos a las  necesidades de tu evento.
+                        </p>
+
+                        <h4 class="text-center mb-5 fondo-negro">Solicita tu servicio aquí</h4>
+
+                    
+                    <div class="col-12 text-center p-2">
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="tel:5558223521"><i class="fas fa-phone"></i> 5822 3521</a>
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="tel:5558249437"><i class="fas fa-phone"></i> 5824 9437</a>
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp"></i> 55 4084 3940</a>
+                    </div>
                 </div>
 
             </div>

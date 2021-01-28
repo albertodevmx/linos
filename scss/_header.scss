@@ -6,3 +6,24 @@
 		height: 46px;
 	}
 }
+
+.active {
+	background: rgba($color: #f00, $alpha: 0.3);
+}
+
+.dropdown-menu {
+	background: #000;
+	
+	& .active {
+		background: rgba($color: #f00, $alpha: 0.3);
+	}
+
+	& a {
+		color: #CCC;
+
+		&:active {
+			background: rgba($color: #f00, $alpha: 0.3);
+		}
+	}
+		
+}

@@ -7,11 +7,11 @@
 					</div>
 					
 					<div class="text-center text-md-left p-3 pl-md-0 footer__redes">
-						<a href="https://facebook.com">
+						<a href="https://www.facebook.com/linosbanquetes" target="_blank">
 							<i class="fab fa-facebook-square"></i>
 						</a>
 
-						<a href="https://instagram.com">
+						<a href="https://www.instagram.com/linosbanquetes/" target="_blank">
 							<i class="fab fa-instagram"></i>
 						</a>
 					</div>
@@ -25,17 +25,17 @@
 						
 						<div class="col-12 col-md-6">
 							<ul class="text-center text-md-left">
-								<li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Platillos</a></li>
-								<li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Menus</a></li>
-								<li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Servicios</a></li>
+								<li><a class="footer__enlace" href="./platillos-japoneses.php"><i class="fas fa-angle-right"></i> Platillos</a></li>
+								<li><a class="footer__enlace" href="./cocinados-al-momento.php"><i class="fas fa-angle-right"></i> Menus</a></li>
+								<li><a class="footer__enlace" href="./experiencia-linos-servicios.php"><i class="fas fa-angle-right"></i> Servicios</a></li>
 							</ul>
 						</div>
 
 						<div class="col-12 col-md-6">
 							<ul class="text-center text-md-left">
-								<li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Políticas de Servicio</a></li>
-								<li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Aviso de Privacidad</a></li>
-								<li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Créditos</a></li>
+								<li><a class="footer__enlace" href="politicas-y-reservaciones.php"><i class="fas fa-angle-right"></i> Políticas de Servicio</a></li>
+								<li><a class="footer__enlace" href="aviso-de-privacidad.php"><i class="fas fa-angle-right"></i> Aviso de Privacidad</a></li>
+								<!-- <li><a class="footer__enlace" href="index.php"><i class="fas fa-angle-right"></i> Créditos</a></li> -->
 							</ul>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-4 text-center text-md-right">
-                    Linos Banquetes, Derechos Reservados 2020.
+                    Linos Banquetes, Derechos Reservados 2021.
                 </div>
             </div>
         </div>
@@ -97,6 +97,15 @@
 	<script type="text/javascript" src="./node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
 
 	<script type="text/javascript" src="js/main.js"></script>
+
+
+	<script>
+		// =========================================================================================================
+		// ===========================		Colorea el menú activo en la barra superior		========================
+		// =========================================================================================================
+		var path = window.location.pathname.replace('\/', '');
+		$(".menu li a[href='" + path + "']").addClass('active');
+	</script>
 </body>
 
 </html>

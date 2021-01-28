@@ -6,6 +6,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Linos</title>
 	<script src="https://kit.fontawesome.com/ed16a084b6.js" crossorigin="anonymous"></script>
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="./style.css">
 </head>
 
@@ -22,8 +41,8 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
+			<ul class="navbar-nav ml-auto menu">
+				<li class="nav-item">
 					<a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item dropdown">
@@ -60,11 +79,11 @@
 						Experiencia Linos
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="experiencia-linos.php">Experiencia Linos</a>
-						<a class="dropdown-item" href="experiencia-linos-eventos.php">Eventos</a>
 						<a class="dropdown-item" href="experiencia-linos-servicios.php">Servicios</a>
+						<a class="dropdown-item" href="experiencia-linos.php">Galeria de experiencias</a>
 						<a class="dropdown-item" href="experiencia-linos-montaje.php">Montaje</a>
-						<a class="dropdown-item" href="politicas-y-reservaciones.php">Política de servicio</a>
+						<!-- <a class="dropdown-item" href="experiencia-linos-eventos.php">Eventos</a>
+						<a class="dropdown-item" href="politicas-y-reservaciones.php">Política de servicio</a> -->
 					</div>
 				</li>
 
@@ -75,7 +94,8 @@
 				</li>
 				-->
 
-				<li class="nav-item linea-roja">
+				<!-- <li class="nav-item linea-roja"> -->
+				<li class="nav-item">
 					<a class="nav-link" href="pedidos.php">Pedidos</a>
 				</li>
 			</ul>
