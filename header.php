@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Linos</title>
-	<script src="https://kit.fontawesome.com/ed16a084b6.js" crossorigin="anonymous"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -24,7 +23,12 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://kit.fontawesome.com/ed16a084b6.js" crossorigin="anonymous"></script>
+
+	<link rel="preload" href="../node_modules/swiper/swiper-bundle.css" as="style">
+	<link rel="preload" href="../node_modules/flickity/dist/flickity.min.css" as="style">
+
+
 	<link rel="stylesheet" href="./style.css">
 </head>
 

@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css");
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url(../node_modules/flickity/dist/flickity.min.css);
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7951,6 +7951,9 @@ hr {
 .fondo-negro-transparente {
   background: rgba(0, 0, 0, 0.6); }
 
+.prueba {
+  color: #f00; }
+
 .slider {
   background: url("./../img/fondo-slider.jpg"); }
 
@@ -7977,6 +7980,18 @@ hr {
   background: rgba(0, 0, 0, 0.7); }
   .mi-navbar__logotipo {
     height: 46px; }
+
+.active {
+  background: rgba(255, 0, 0, 0.3); }
+
+.dropdown-menu {
+  background: #000; }
+  .dropdown-menu .active {
+    background: rgba(255, 0, 0, 0.3); }
+  .dropdown-menu a {
+    color: #CCC; }
+    .dropdown-menu a:active {
+      background: rgba(255, 0, 0, 0.3); }
 
 .footer {
   width: 100%;
@@ -8044,7 +8059,7 @@ hr {
     right: 0;
     background: url("./../img/chef.png") top center;
     background-size: cover;
-    opacity: 0.4;
+    opacity: 1;
     z-index: 0; }
     @media (min-width: 761px) {
       .chef::after {

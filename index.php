@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 
-<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/shushi-portada.png')">
+<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/shushi-portada.jpg')">
     <div class="portada__info pt-5">
 
         <h1 class="mt-5 fondo-negro-transparente d-inline-block p-1 pl-2 pr-2">LINOS FOOD EXPERIENCE</h1>

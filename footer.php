@@ -20,13 +20,13 @@
 				<div class="col-12 col-md-4 p-3 p-md-5">
 					<div class="row">
 						<div class="col-12">
-							<h5 class="text-center text-md-left mb-3">Linos Banquetes Japoneses</h5>
+							<h5 class="text-center text-md-left mb-3">Lino´s Banquetes japoneses</h5>
 						</div>
 						
 						<div class="col-12 col-md-6">
 							<ul class="text-center text-md-left">
 								<li><a class="footer__enlace" href="./platillos-japoneses.php"><i class="fas fa-angle-right"></i> Platillos</a></li>
-								<li><a class="footer__enlace" href="./cocinados-al-momento.php"><i class="fas fa-angle-right"></i> Menus</a></li>
+								<li><a class="footer__enlace" href="./cocinados-al-momento.php"><i class="fas fa-angle-right"></i> Menús</a></li>
 								<li><a class="footer__enlace" href="./experiencia-linos-servicios.php"><i class="fas fa-angle-right"></i> Servicios</a></li>
 							</ul>
 						</div>
@@ -58,7 +58,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-4 text-center text-md-right">
-                    Linos Banquetes, Derechos Reservados 2021.
+                    Lino´s Banquetes, Derechos Reservados 2021.
                 </div>
             </div>
         </div>

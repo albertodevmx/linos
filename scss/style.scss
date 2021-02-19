@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css');
 // GENERALES
 @import "./custom-bootstrap";
-@import "../node_modules/swiper/swiper-bundle.css";
-@import "../node_modules/flickity/dist/flickity.min.css";
+
 @import "./estilos-generales";
 // MODULOS
 @import "./slider";
@@ -11,6 +11,8 @@
 // PAGINAS
 @import "./index";
 @import "./platillos";
+
+
 
 
 
