@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
 @import url("https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css");
+@import url("./../node_modules/swiper/swiper-bundle.css");
+@import url("./../node_modules/flickity/dist/flickity.min.css");
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10134,6 +10136,12 @@ hr {
 .mi-navbar__logotipo {
   height: 46px;
 }
+.mi-navbar .nav-item a {
+  color: #DDD !important;
+}
+.mi-navbar .nav-item a:hover {
+  color: #FFF !important;
+}
 
 .active {
   background: rgba(255, 0, 0, 0.3);
@@ -10411,9 +10419,22 @@ hr {
   width: 80%;
 }
 
+.menu-lateral {
+  display: block;
+  overflow: hidden;
+}
 .menu-lateral__enlace {
   display: block;
   color: #fff;
+  padding: 3px;
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+.menu-lateral__enlace:hover {
+  color: #CCC;
+}
+.menu-lateral .active {
+  background: rgba(255, 0, 0, 0.5);
 }
 
 .incluye__item {

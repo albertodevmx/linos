@@ -103,7 +103,7 @@
                     "id":"sapporo", 
                     "tituloCorto":"Sapporo",
                     "tituloLargo":"Menú Sapporo", 
-                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-sapporo/teppan-yaki-niku.png", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/tempura-marisco-verdura.png", 
                     "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tepanyaki Niku<br>Tempura | Verduras y camarón<br>Yakimeshi<br>Tempura helado", 
                     "descripcionLarga":[
                         {
@@ -239,7 +239,7 @@
                     "id":"osaka", 
                     "tituloCorto":"Osaka",
                     "tituloLargo":"Menú Osaka", 
-                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-osaka/teppan-yaki-niku.png", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/osaka.png", 
                     "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Yakitori<br>Tepanyaki Niku<br>Tempura | Verdura y marisco<br>Yakimeshi<br>Tempura helado", 
                     "descripcionLarga":[
                         {
@@ -371,7 +371,7 @@
                     "id":"kosherStyle", 
                     "tituloCorto":"Kosher Style",
                     "tituloLargo":"Menú Kosher Style", 
-                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-kosher/gohan.png", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/kosher-style.png", 
                     "descripcionCorta":"Sushi Maki<br>Kushi Ague<br>Ensalada Kany Tai<br>Tempura | Marisco y verduras<br>Yakimeshi<br>Gohan<br>Espuma de Fomu", 
                     "descripcionLarga":[
                         {
@@ -438,7 +438,7 @@
                     "id":"hikari", 
                     "tituloCorto":"Hikari",
                     "tituloLargo":"Menú Hikari", 
-                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-hikari/ensalada-kany-tai.png", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/hikari.png", 
                     "descripcionCorta":"Edamame mixto<br>Sushi Bowl<br>Nigiri Sushi <br>Ensalada Kany Tai<br>Tempura corte fino<br>Helado Hikari", 
                     "descripcionLarga":[
                         {
@@ -588,7 +588,7 @@
                     "id":"saitanaefrigerada", 
                     "tituloCorto":"Saitana | Refrigerada",
                     "tituloLargo":"Menú Saitana | Refrigerada", 
-                    "imagen":"img/secciones/banquetes-cocinados-al-momento/menu-saitama/sushi-makipng.png", 
+                    "imagen":"img/secciones/banquetes-cocinados-al-momento/saitana-refrigerada.png", 
                     "descripcionCorta":"Sushi Maki<br>Nigiri Sushi<br>Temaki<br>Rollo de Jicama", 
                     "descripcionLarga":[
                         {
@@ -681,7 +681,7 @@
                             }, 
                             {
                                 "titulo":"Tipo B", 
-                                "descripcion":"El servicio incluye el equipo necesario para servir los platillos, como son platos cuadrados además de artículos necesarios para decorar un buffet (no incluye mesa y mantel)."
+                                "descripcion":"El servicio incluye el equipo necesario para servir los platillos, como son platos cuadrados además de artículos necesarios para decorar un buffet ."
                             }
                         ]
                     }, 
@@ -912,7 +912,7 @@
                     "tituloCorto":"Nagoya",
                     "subtitulo":"Pesca del día", 
                     "tituloLargo":"Menú Nagoya", 
-                    "imagen":"teppan-yaki-niku.png", 
+                    "imagen":"sushi-bowl.png", 
                     "descripcionCorta":"Edamame mixto<br>Sushi Bowl<br>Kushi Ague<br>Nigiri Sushi<br>Ensalada Kany Tai<br>", 
                     "descripcionLarga":[
                         {
@@ -951,7 +951,7 @@
                     "tituloCorto":"Ibakari",
                     "subtitulo":"Tori Roll", 
                     "tituloLargo":"Menú Ibaraki", 
-                    "imagen":"teppan-yaki-niku.png", 
+                    "imagen":"gohan.png", 
                     "descripcionCorta":"Sushi Maki<br>Tepanyaki Niku Mar y Tierra<br>Arroz Gohan<br>", 
                     "descripcionLarga":[
                         {
@@ -1002,7 +1002,7 @@
     "incluye":{
         "vajilla":{
             "titulo":"Vajilla", 
-            "texto":"Platos cuadrados, salseras, tablas para sushi y artículos especiales para servir los platillos y decorar una mesa de buffet.  (no incluye mesa y mantel)",
+            "texto":"Platos cuadrados, salseras, tablas para sushi y artículos especiales para servir los platillos y decorar una mesa de buffet.  ",
             "icono":"icono-vajilla.png"
         }, 
         "cocineros":{

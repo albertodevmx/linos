@@ -3,17 +3,17 @@
 <div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/shushi-portada.jpg')">
     <div class="portada__info pt-5">
 
-        <h1 class="mt-5 fondo-negro-transparente d-inline-block p-1 pl-2 pr-2">LINOS FOOD EXPERIENCE</h1>
+        <h1 class="mt-5 fondo-negro-transparente d-inline-block p-1 pl-2 pr-2">LINO´S FOOD EXPERIENCE</h1>
         <div></div>
         <p class="fondo-negro-transparente d-inline-block p-1 pl-2 pr-2">
-            La experiencia gastronómica más satisfactoria que tus sentidos pueden vivir.
+            La Experiencia gastronómica más satisfactoria que tus sentidos pueden vivir.
         </p>
 
         <p class="p-5">
             <!-- <a href="#inicio" class="desplazar boton linea-roja">
                 Empezar experiencia
             </a> -->
-            <a href="#inicio" class="btn btn-danger shadow">
+            <a href="#inicio" class="btn btn-danger shadow desplazar">
                 Empezar experiencia
             </a>
         </p>
@@ -25,7 +25,7 @@
 
 <div id="inicio" class="container-fluid d-flex align-items-center portada" style="--background: url('./img/secciones/inicio/inicio-imagen-2-linos-banquetes-japoneses.jpg');  --opacity: 0.8;">
     <div class="portada__info pt-5">
-        <h1 class="mt-5 fondo-negro p-2 d-inline-block">LINOS BANQUETES JAPONESES</h1>
+        <h1 class="mt-5 fondo-negro p-2 d-inline-block">LINO´S BANQUETES JAPONESES</h1>
         <!-- <p>
             La experiencia gastronómica más satisfactoria que tus sentidos pueden vivir.
         </p>
@@ -126,7 +126,7 @@
 <div class="container-fluid form">
     <div class="container form__contenidos">
         <div class="row">
-            <div class="col-12 col-md-4 p-md-5 chef__info mt-5 mb-5 text-center text-md-left">
+            <div class="col-12 col-md-4 p-md-5 offset-md-2 chef__info mt-5 mb-5 text-center text-md-left">
                 
                 <div class="p-3 form__bloque">
                     <p class="text-center text-md-left mb-3 mb-md-5">
@@ -136,12 +136,18 @@
                     <form>
                         <div class="form-group">
                           <!-- <label for="exampleInputEmail1">Email address</label> -->
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
                           <!-- <small id="emailHelp" class="form-text text-muted">Es un campo requerido.</small> -->
                         </div>
                         <div class="form-group">
                           <!-- <label for="exampleInputPassword1">Password</label> -->
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                          <!-- <small id="emailHelp" class="form-text text-muted">Es un campo requerido.</small> -->
+                        </div>
+
+                        <div class="form-group">
+                          <!-- <label for="telefonomovil">Email address</label> -->
+                          <input type="text" class="form-control" id="telefonomovil" placeholder="Teléfono Móvil">
                           <!-- <small id="emailHelp" class="form-text text-muted">Es un campo requerido.</small> -->
                         </div>
 
@@ -154,15 +160,15 @@
 
                 <div class="col-12 text-center content p-3 pt-5">
                         <p class="fondo-negro">
-                            En Linos nos adaptamos a las  necesidades de tu evento.
+                            En Lino´s nos adaptamos a las  necesidades de tu evento.
                         </p>
 
                         <h4 class="text-center mb-5 fondo-negro">Solicita tu servicio aquí</h4>
 
                     
                     <div class="col-12 text-center p-2">
-                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="tel:5558223521"><i class="fas fa-phone"></i> 5822 3521</a>
-                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="tel:5558249437"><i class="fas fa-phone"></i> 5824 9437</a>
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="tel:5558223521"><i class="fas fa-phone"></i> 55 5822 3521</a>
+                        <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="tel:5558249437"><i class="fas fa-phone"></i> 55 5824 9437</a>
                         <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-block" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp"></i> 55 4084 3940</a>
                     </div>
                 </div>

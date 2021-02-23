@@ -46,8 +46,8 @@
 				<div class="col-12 col-md-4 pl-1 pr-1 p-3 p-md-5">
 					<h5 class="text-center text-md-left">Contacto</h5>
 					<p class="text-center text-md-left">
-						<a class="footer__enlace" href="tel:5558223521"><i class="fas fa-phone"></i> 5822 3521</a><br>
-						<a class="footer__enlace" href="tel:5558249437"><i class="fas fa-phone"></i> 5824 9437</a><br>
+						<a class="footer__enlace" href="tel:5558223521"><i class="fas fa-phone"></i>55 5822 3521</a><br>
+						<a class="footer__enlace" href="tel:5558249437"><i class="fas fa-phone"></i>55 5824 9437</a><br>
 						<a class="footer__enlace" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp"></i> 55 4084 3940</a><br>
 						
 						<a class="footer__enlace" href="mailto:info@linosbanquetesjaponeses.com.mx"><i class="fas fa-envelope"></i> info@linosbanquetesjaponeses.com.mx</a>
@@ -104,7 +104,13 @@
 		// ===========================		Colorea el menú activo en la barra superior		========================
 		// =========================================================================================================
 		var path = window.location.pathname.replace('\/', '');
+		
+		var pathCompleto = path + window.location.search;
+		console.log("El path completo es: ", pathCompleto);
+		
 		$(".menu li a[href='" + path + "']").addClass('active');
+
+		$(".menu-lateral-activos a[href='" + pathCompleto + "']").addClass('active');
 	</script>
 </body>
 

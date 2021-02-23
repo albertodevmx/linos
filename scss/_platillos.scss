@@ -120,9 +120,23 @@
 
 .menu-lateral {
 
+    display: block;
+    overflow: hidden;
+
     &__enlace {
         display: block;
         color: #fff;
+        padding: 3px;
+        overflow: hidden;
+        margin-bottom: 1px;
+
+        &:hover {
+            color: #CCC;
+        }
+    }
+
+    & .active {
+        background: rgba($color: #f00, $alpha: 0.5);
     }
 }
 

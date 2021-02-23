@@ -66,7 +66,7 @@ $incluye = $archivo_json["incluye"];
             <div class="d-none d-md-block col-3 p-3 menu-lateral">
                 <div class="div pt-3 pb-3">
                     <div class="row">
-                        <div class="col-12 p-3">
+                        <div class="col-12 p-3 menu-lateral-activos">
                             <h4 class="menu-lateral__titulo">Menú</h4>
 
                             

@@ -9,6 +9,16 @@
 
 
 
+                <div class="row">
+                    <div class="col-12 p-3 ">
+                        <h3 class="text-center text-md-left">
+                            Redes Sociales
+                        </h3>
+                    </div>
+                </div>
+
+
+
             <div class="row mt-3">
 
                 <div class="col-6 col-md-3 text-light text-center mb-3">

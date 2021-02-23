@@ -11,8 +11,8 @@
 
                 
                 <div class="col-12 text-center p-2">
-                    <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-inline-block" href="tel:5558223521"><i class="fas fa-phone"></i> 5822 3521</a>
-                    <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-inline-block" href="tel:5558249437"><i class="fas fa-phone"></i> 5824 9437</a>
+                    <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-inline-block" href="tel:5558223521"><i class="fas fa-phone"></i> 55 5822 3521</a>
+                    <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-inline-block" href="tel:5558249437"><i class="fas fa-phone"></i> 55 5824 9437</a>
                     <a class="btn btn-danger d-block pl-3 pr-3 ml-1 mr-1 mb-3 d-md-inline-block" href="https://wa.me/5215540843940"><i class="fab fa-whatsapp"></i> 55 4084 3940</a>
                 </div>
         </div>

@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 
 
-<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/banners/banquetes-banner-1-principal.jpg'); --opacity: 1;">
+<div class="container-fluid d-flex align-items-center portada" style="--background: url('./img/banners/imagen-nueva.png'); --opacity: 1;">
     <div class="portada__info pt-5">
         <h1 class="mt-5 fondo-negro-transparente d-inline-block p-1 pl-2 pr-2">Baquetes Japonese Gournet</h1>
         <div></div>
@@ -17,7 +17,7 @@
 <div class="container-fluid content">
     <div class="container">
     
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12 col-md-6 p-3 p-md-5">
                 <h3>Mesas Tepanyaki</h3>
                 <p>
@@ -28,17 +28,17 @@
             <div class="col-12 col-md-6 p-3 p-md-5">
                 <img src="./img/servicios-02.jpg" alt="" class="w-100">
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
 
             <div class="col-12 col-md-6 p-3 p-md-5">
-                <img src="./img/eventos-12.jpg" alt="" class="w-100">
+                <img src="./img/prepara-tu-sushi.jpg" alt="" class="w-100">
             </div>
 
 
             <div class="col-12 col-md-6 p-3 p-md-5">
-                <h3>Dinámicas de comida</h3>
+                <h3>Prepara tu propio Sushi</h3>
                 <p>
                     Dejamos el alimento listo para que tus invitados hagan sus propias creaciones de la mano de uno de nuestros chefs. Ideal para fiestas infantiles o donde deseas integrar una actividad de convivencia.
                 </p>
@@ -78,12 +78,13 @@
             <div class="col-12 col-md-6 p-3 p-md-5">
                 <h3>BARRA REFRIGERADA</h3>
                 <p>
-                    
+                    Contamos con barra refrigerada movil que podemos llevar a tu evento para que los alimentos se sirvan lo más frescos posibles. 
+                    Esto y más es parte de nuestra Experiencia culinaria en Linos Banquetes.
                 </p>
             </div>
 
             <div class="col-12 col-md-6 p-3 p-md-5">
-                <img src="./img/eventos-13-c.jpg" alt="" class="w-100">
+                <img src="./img/barra-refrigerada-1-grande.png" alt="" class="w-100">
             </div>
 
         </div>
@@ -139,7 +140,7 @@
         </div>
         <div class="col-xm-12 col-sm-6 col-lg-3 text-light mb-3 pr-5 pl-5 p-md-3">
             <div class="text-center p-3">
-                <img src="./img/secciones/banquetes/iconos/montaje-japones.png" alt="" class="w-70">
+                <img src="./img/icono-preparacion.png" alt="" class="w-70">
             </div>
             <h5 class="text-center">PREPARACIÓN</h5>
             <p class="text-center">

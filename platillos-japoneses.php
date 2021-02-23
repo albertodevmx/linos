@@ -125,7 +125,7 @@
 
             <div class="row mb-5">
                     <div class="col-12-col-md-4 text-center text-md-right p-3">
-                        <img src="./img/platillos/yakitori.png" alt="" class="w-80">
+                        <img src="./img/platillos/misoshiru.png" alt="" class="w-80">
                     </div>
 
                     <div class="col-12 col-md-8 p-3">

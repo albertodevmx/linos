@@ -25,8 +25,8 @@
 
 	<script src="https://kit.fontawesome.com/ed16a084b6.js" crossorigin="anonymous"></script>
 
-	<link rel="preload" href="../node_modules/swiper/swiper-bundle.css" as="style">
-	<link rel="preload" href="../node_modules/flickity/dist/flickity.min.css" as="style">
+	<!-- <link rel="preload" href="./node_modules/swiper/swiper-bundle.css" as="style">
+	<link rel="preload" href="./node_modules/flickity/dist/flickity.min.css" as="style"> -->
 
 
 	<link rel="stylesheet" href="./style.css">
